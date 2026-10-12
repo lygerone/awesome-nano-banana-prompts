@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "studio-pure-white-amazon",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Pure White Marketplace Packshot",
+    "titleZh": "电商平台纯白底主图",
+    "summary": "Use this for marketplace main images, where Amazon and many other marketplaces ask for the product alone on pure white. It works from any reasonably sharp product photo, even one shot on a cluttered desk. The prompt keeps the label and proportions fixed, but check small text on the packaging before you publish.",
+    "summaryZh": "适合做电商平台的主图：亚马逊等不少平台要求主图是纯白底、只有商品本身。随手在桌上拍的商品照也能用，只要商品本身清晰。提示词会锁定标签和比例，但发布前还是留意一下包装上的小字有没有走样。",
+    "prompt": "Keep the product exactly as it is, including its shape, label, colors and proportions. Replace the background with pure white (#FFFFFF) and center the product. Light it with soft, even studio light from both sides and add a subtle natural contact shadow under its base. Crisp edges, no color spill, clean e-commerce packshot.",
+    "promptZh": "保持商品原样，形状、标签、颜色和比例都不变。把背景换成纯白（#FFFFFF），商品居中。两侧用柔和均匀的影棚光，底部加一道自然的接触阴影。边缘清晰，无色彩溢出，干净的电商主图。",
+    "tags": [
+      "Amazon",
+      "Shopify",
+      "White Background",
+      "Packshot"
+    ],
+    "images": {
+      "before": "images/studio-pure-white-amazon-before.webp",
+      "after": "images/studio-pure-white-amazon-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-pure-white-amazon"
+  },
+  {
+    "id": "studio-acrylic-reflection",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Black Acrylic Mirror Reflection",
+    "titleZh": "黑色亚克力镜面倒影",
+    "summary": "Gives an ordinary product shot the dark, glossy look of a premium brand ad: black acrylic, a mirror reflection and rim light on both edges. It suits bottles, watches, perfume and electronics with clear outlines. Products that are already very dark can blend into the background, so start from a well-lit photo.",
+    "summaryZh": "把普通商品照做成高端品牌广告里常见的暗调质感：黑色亚克力台面、镜面倒影、两侧轮廓光。适合瓶装、手表、香水、数码这类轮廓清楚的商品。本身颜色很深的商品容易和背景融在一起，原图最好光线充足。",
+    "prompt": "Keep the product unchanged. Place it on glossy black acrylic with a crisp mirror reflection that fades downward. Use a dark, seamless background and a dramatic rim light along both edges of the product. Deep contrast, luxury brand look, ultra-sharp detail.",
+    "promptZh": "商品保持不变。放到高光黑色亚克力台面上，下方有清晰且逐渐淡出的镜面倒影。深色无缝背景，两侧轮廓光勾出商品边缘。明暗对比强烈，奢侈品质感，细节锐利。",
+    "tags": [
+      "Luxury",
+      "Reflection",
+      "Dark Studio",
+      "Rim Light"
+    ],
+    "images": {
+      "before": "images/studio-acrylic-reflection-before.webp",
+      "after": "images/studio-acrylic-reflection-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-acrylic-reflection"
+  },
+  {
+    "id": "studio-floating-ambient-shadow",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Floating Hero Shot",
+    "titleZh": "悬浮主图与柔和投影",
+    "summary": "Lifts the product a couple of centimeters off a seamless off-white backdrop with a soft shadow underneath, a common hero-image style for shoes, bags, cosmetics and gadgets. It looks clean and modern without a busy scene. To change how high the product floats, edit the \"2 cm\" in the prompt.",
+    "summaryZh": "让商品悬浮在米白色无缝背景上约 2 厘米，下方留一道柔和的投影，是鞋包、美妆、数码产品首页大图的常见做法。画面干净，没有多余道具。想调整悬浮高度，直接改提示词里的“2 cm”。",
+    "prompt": "Keep the product unchanged. Make it float about 2 cm above a seamless off-white studio backdrop, with a soft, diffused shadow on the floor directly beneath it. Soft overhead lighting, clean and minimal catalog style.",
+    "promptZh": "商品保持不变。让它悬浮在无缝米白色影棚背景上方约 2 厘米，正下方地面有一道柔和的漫射阴影。顶部柔光，干净极简的目录图风格。",
+    "tags": [
+      "Levitation",
+      "Studio",
+      "Shadow",
+      "Catalog"
+    ],
+    "images": {
+      "before": "images/studio-floating-ambient-shadow-before.webp",
+      "after": "images/studio-floating-ambient-shadow-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-floating-ambient-shadow"
+  },
+  {
+    "id": "studio-overhead-flat-lay",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Overhead Flat Lay on Light Gray",
+    "titleZh": "浅灰底俯拍平铺图",
+    "summary": "Turns an angled snapshot into a straight-down flat lay on a light gray seamless background, the clean top view marketplaces often use for wallets, accessories, folded apparel and stationery. Because the model redraws the product from above, it has to infer parts your photo did not show, so compare edges and details with the real item before you publish.",
+    "summaryZh": "把斜拍的随手照变成正上方俯拍的平铺图，浅灰色无缝背景，是钱包、配饰、叠好的衣物和文具在电商平台上常见的顶视图。模型要从上方重新画出商品，原图里没拍到的部分是它推断的，发布前对照实物检查一下边缘和细节。",
+    "prompt": "Keep the product exactly as it is, including its shape, stitching, colors and any logo. Show it as an overhead flat lay, photographed straight down and centered on a light gray seamless background. Soft, even lighting with only a faint shadow. Clean, minimal marketplace listing photo.",
+    "promptZh": "商品保持原样，形状、缝线、颜色和标志都不变。改成正上方俯拍的平铺图，商品居中放在浅灰色无缝背景上。柔和均匀的光线，只留很淡的阴影。干净简洁的电商商品图。",
+    "tags": [
+      "Flat Lay",
+      "Top View",
+      "Gray Background",
+      "Accessories"
+    ],
+    "images": {
+      "before": "images/studio-overhead-flat-lay-before.webp",
+      "after": "images/studio-overhead-flat-lay-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-overhead-flat-lay"
+  },
+  {
+    "id": "studio-three-quarter-angle",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Three-Quarter Catalog Angle",
+    "titleZh": "45 度目录角度",
+    "summary": "Turns a straight-on product photo into a three-quarter view on pure white, so every product in a catalog can share the same 45-degree angle. Use it when your photos were shot from different angles and the listing grid looks uneven. The model has to imagine the side your photo did not show, so check it against the real product before you publish.",
+    "summaryZh": "把正面拍的商品照转成 45 度的侧前方视角，纯白背景，让目录里的每件商品都用同一个角度。照片拍摄角度不统一、商品列表看起来参差不齐时用它。原图没拍到的侧面是模型想象出来的，发布前要对照实物检查。",
+    "prompt": "Keep the product's design, colors, materials and logo exactly as they are. Show it at a three-quarter angle, turned about 45 degrees to the left, on a pure white background with a soft contact shadow. Even studio lighting, consistent e-commerce catalog style.",
+    "promptZh": "商品的设计、颜色、材质和标志都保持不变。改成向左转约 45 度的侧前方视角，纯白背景，底部有柔和的接触阴影。均匀的影棚光，统一的电商目录风格。",
+    "tags": [
+      "Catalog",
+      "45 Degree",
+      "White Background",
+      "Consistency"
+    ],
+    "images": {
+      "before": "images/studio-three-quarter-angle-before.webp",
+      "after": "images/studio-three-quarter-angle-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-three-quarter-angle"
+  },
+  {
+    "id": "studio-material-detail-closeup",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Material Close-Up for Detail Images",
+    "titleZh": "材质细节特写",
+    "summary": "Turns a full product shot into a close-up of its material, stitching and hardware, the kind of detail image that follows the main photo in a listing. It suits leather goods, bags, shoes and textiles. The model fills in fine texture your photo may not resolve, so treat the result as a styled detail shot and make sure it matches what buyers will receive.",
+    "summaryZh": "把商品全景照变成材质、缝线和五金的特写，就是商品详情里跟在主图后面的那种细节图。适合皮具、包袋、鞋子和纺织品。原图看不清的细纹理是模型补出来的，把结果当作氛围细节图，并确认和买家收到的实物一致。",
+    "prompt": "Turn this into a close-up detail shot of the product's material and craftsmanship. Fill the frame with its surface texture, stitching and hardware, using a shallow depth of field and soft side light that brings out the texture. Keep the colors, materials and hardware finish exactly as in the original photo.",
+    "promptZh": "把这张照片变成商品材质与做工的特写。画面里充满它的表面纹理、缝线和五金，用浅景深和柔和的侧光突出质感。颜色、材质和五金的光泽与原图完全一致。",
+    "tags": [
+      "Detail Shot",
+      "Texture",
+      "Leather",
+      "Craftsmanship"
+    ],
+    "images": {
+      "before": "images/studio-material-detail-closeup-before.webp",
+      "after": "images/studio-material-detail-closeup-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-material-detail-closeup"
+  },
+  {
+    "id": "studio-colorway-lineup",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Preview Colorways Side by Side",
+    "titleZh": "多配色并排预览",
+    "summary": "Shows your product in four colors side by side: the original plus sage green, sand beige and charcoal. It helps when planning new colors or mocking up a color selector before samples arrive. Generated colors will not match real dye lots exactly, so do not use the result as the listing photo for a color you have not photographed. Swap the three color names for your own.",
+    "summaryZh": "把商品的四种配色并排展示：原色加鼠尾草绿、沙米色和炭黑。适合规划新配色，或者在样品到货前先做出颜色选择的效果图。生成的颜色和真实染色不会完全一致，没实拍过的颜色不要直接当商品图用。把三个颜色名换成你自己的即可。",
+    "prompt": "Show this product in four colorways side by side: its original color, sage green, sand beige and charcoal black. Keep the shape, materials, details and logo identical across all four. Space them evenly on a light gray background with the same soft studio light and matching shadows.",
+    "promptZh": "把这件商品的四种配色并排展示：原色、鼠尾草绿、沙米色和炭黑色。四个的形状、材质、细节和标志完全一致。均匀排开在浅灰色背景上，用同样柔和的影棚光和一致的阴影。",
+    "tags": [
+      "Colorways",
+      "Variants",
+      "Mockup",
+      "Lineup"
+    ],
+    "images": {
+      "before": "images/studio-colorway-lineup-before.webp",
+      "after": "images/studio-colorway-lineup-after.webp"
+    },
+    "url": "https://yepshot.com/explore/studio-colorway-lineup"
+  },
+  {
+    "id": "lifestyle-travertine-stone",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Travertine Block in Morning Light",
+    "titleZh": "洞石台面与晨光树影",
+    "summary": "Places the product on a raw travertine block with dried stems and dappled morning light, the warm, natural look used by skincare, candle and fragrance brands. Use it when a white background feels too clinical for social posts or a brand page. Shape, label and colors are held fixed, so the product stays recognizable.",
+    "summaryZh": "把商品放到粗切洞石台面上，旁边几枝干花，晨光透过树叶洒下斑驳光影，是护肤、香薰、蜡烛品牌常用的温暖自然风格。白底图太冷、想发社交媒体或品牌页时适合用它。形状、标签和颜色都锁定不变。",
+    "prompt": "Keep the product exactly as it is, including its shape, label and colors. Place it on a raw-cut beige travertine block with a few dried botanical stems beside it. Soft morning window light casts dappled leaf shadows across the scene. Warm, organic mood, shallow depth of field, editorial lifestyle photo.",
+    "promptZh": "商品保持原样，形状、标签、颜色都不变。放在一块原切米色洞石上，旁边点缀几枝干花。晨光透过窗户，在画面上投下斑驳的树叶光影。温润自然的氛围，浅景深，杂志风生活方式摄影。",
+    "tags": [
+      "Travertine",
+      "Cosmetics",
+      "Morning Light",
+      "Lifestyle"
+    ],
+    "images": {
+      "before": "images/lifestyle-travertine-stone-before.webp",
+      "after": "images/lifestyle-travertine-stone-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-travertine-stone"
+  },
+  {
+    "id": "lifestyle-marble-bathroom-dew",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Marble Vanity with Water Droplets",
+    "titleZh": "大理石台面与水珠",
+    "summary": "Sets the product on a white Carrara marble vanity with water droplets and a blurred spa bathroom behind it. It fits skincare, body care and bath products that should look fresh and clean. The background stays soft so the product is the sharpest thing in the frame, which helps on small listing thumbnails.",
+    "summaryZh": "把商品放在白色卡拉拉大理石洗手台上，台面带细小水珠，背景是虚化的高级浴室。适合护肤、身体护理、沐浴类产品，突出清爽干净的感觉。背景刻意虚化，商品始终是画面里最清晰的部分，在小尺寸缩略图里也看得清。",
+    "prompt": "Keep the product unchanged. Place it on a polished white Carrara marble bathroom vanity with fine water droplets on the surface. Soft light through a frosted window, a blurred luxury spa bathroom in the background. Fresh, clean skincare advertising look with crisp focus on the product.",
+    "promptZh": "商品保持不变。放在抛光的卡拉拉白大理石洗手台上，台面带细密水珠。磨砂窗透进柔光，背景是虚化的轻奢水疗浴室。清新干净的护肤品广告质感，商品对焦清晰。",
+    "tags": [
+      "Marble",
+      "Bathroom",
+      "Water Drops",
+      "Skincare"
+    ],
+    "images": {
+      "before": "images/lifestyle-marble-bathroom-dew-before.webp",
+      "after": "images/lifestyle-marble-bathroom-dew-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-marble-bathroom-dew"
+  },
+  {
+    "id": "lifestyle-scandinavian-wood-kitchen",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Oak Table with Kitchen Props",
+    "titleZh": "北欧橡木餐桌与生活道具",
+    "summary": "Puts the product on an oak table with a ceramic cup and a linen napkin in warm side light, like a photo taken in a real Scandinavian home. It suits kitchenware, food packaging, coffee and small home goods. The props are few and neutral, so they set the mood without competing with what you sell.",
+    "summaryZh": "把商品放在橡木餐桌上，旁边一只陶瓷杯、一块亚麻餐巾，侧窗暖光，像在真实的北欧家居里拍的。适合厨具、食品包装、咖啡和家居小物。道具少而素，只负责营造氛围，不会抢商品的风头。",
+    "prompt": "Keep the product unchanged. Place it on a natural oak tabletop with visible wood grain, with a ceramic cup and a linen napkin nearby. Warm daylight from a side window, authentic Scandinavian home atmosphere, f/4 depth of field, product in sharp focus.",
+    "promptZh": "商品保持不变。放在带清晰木纹的天然橡木桌面上，旁边摆一只陶瓷杯和一块亚麻餐巾。侧窗暖色自然光，真实的北欧居家氛围，f/4 景深，商品清晰锐利。",
+    "tags": [
+      "Kitchen",
+      "Oak Wood",
+      "Homeware",
+      "Warm"
+    ],
+    "images": {
+      "before": "images/lifestyle-scandinavian-wood-kitchen-before.webp",
+      "after": "images/lifestyle-scandinavian-wood-kitchen-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-scandinavian-wood-kitchen"
+  },
+  {
+    "id": "lifestyle-industrial-concrete-podium",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Concrete Podium, Tech Style",
+    "titleZh": "水泥展台与科技质感",
+    "summary": "Places the product on a raw concrete cylinder with a few brushed-metal shapes and hard, angular shadows. The cool, architectural look suits headphones, chargers, phone cases and other tech accessories. If you sell something else and want the same industrial set, swap \"tech accessories\" in the prompt for your own category.",
+    "summaryZh": "把商品放在素水泥圆柱展台上，周围几块拉丝金属几何体，配硬朗的斜向阴影。冷静的建筑感适合耳机、充电器、手机壳这类数码配件。卖的是别的品类又想要同样的工业风，把提示词里的“tech accessories”换成你的品类即可。",
+    "prompt": "Keep the product unchanged. Place it on a minimalist raw gray concrete cylinder podium with a few brushed-metal geometric shapes around it. Cool architectural light with sharp, angular shadows. Modern industrial look for tech accessories, high detail.",
+    "promptZh": "商品保持不变。放在极简的灰色水泥圆柱展台上，周围点缀几个拉丝金属几何体。冷调建筑光，投下利落的棱角阴影。适合科技配件的现代工业风，细节丰富。",
+    "tags": [
+      "Tech",
+      "Concrete",
+      "Industrial",
+      "Minimalist"
+    ],
+    "images": {
+      "before": "images/lifestyle-industrial-concrete-podium-before.webp",
+      "after": "images/lifestyle-industrial-concrete-podium-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-industrial-concrete-podium"
+  },
+  {
+    "id": "lifestyle-bright-living-room",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Bright Modern Living Room",
+    "titleZh": "明亮的现代客厅",
+    "summary": "Places the product on a light oak sideboard in a bright living room with a sofa and plants softly blurred behind it. It suits vases, lamps, candles, decor and small furniture that buyers want to picture at home. Daylight comes from a large window, and the product's shape, finish and colors are held fixed.",
+    "summaryZh": "把商品放到明亮客厅里的浅色橡木边柜上，背后是虚化的沙发和绿植。适合花瓶、台灯、蜡烛、家居摆件和小家具，让买家能想象它放在家里的样子。光线来自大窗户的自然光，商品的形状、表面质感和颜色保持不变。",
+    "prompt": "Keep the product exactly as it is, including its shape, finish and colors. Place it on a light oak sideboard in a bright, modern living room, with a sofa and green plants softly blurred behind it. Natural daylight from a large window, shadows that match the light, photorealistic interior catalog photo.",
+    "promptZh": "商品保持原样，形状、表面质感和颜色都不变。放在明亮现代客厅里的浅色橡木边柜上，背后是柔和虚化的沙发和绿植。大窗户透进自然光，阴影方向与光线一致，写实的家居目录照片。",
+    "tags": [
+      "Living Room",
+      "Home Decor",
+      "Interior",
+      "Daylight"
+    ],
+    "images": {
+      "before": "images/lifestyle-bright-living-room-before.webp",
+      "after": "images/lifestyle-bright-living-room-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-bright-living-room"
+  },
+  {
+    "id": "lifestyle-outdoor-picnic",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Sunny Picnic Blanket",
+    "titleZh": "阳光野餐布",
+    "summary": "Sets the product on a checkered picnic blanket in a sunny park with a wicker basket and fresh fruit nearby. It fits drinkware, snacks, sunscreen, portable speakers and other summer or outdoor products. The park stays softly blurred so the product remains the sharpest thing in the frame.",
+    "summaryZh": "把商品放在阳光公园里的格子野餐布上，旁边有藤编篮和新鲜水果。适合水杯、零食、防晒和便携音箱这类夏季或户外商品。公园背景保持虚化，商品始终是画面里最清晰的部分。",
+    "prompt": "Keep the product unchanged. Place it on a red and white checkered picnic blanket in a sunny park, with a wicker basket and fresh fruit nearby and trees softly blurred in the background. Bright natural daylight with soft shadows, shallow depth of field, cheerful summer lifestyle photo.",
+    "promptZh": "商品保持不变。放在阳光公园里的红白格子野餐布上，旁边有藤编篮和新鲜水果，背景的树木柔和虚化。明亮的自然光和柔和阴影，浅景深，轻快的夏日生活方式照片。",
+    "tags": [
+      "Picnic",
+      "Outdoor",
+      "Summer",
+      "Drinkware"
+    ],
+    "images": {
+      "before": "images/lifestyle-outdoor-picnic-before.webp",
+      "after": "images/lifestyle-outdoor-picnic-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-outdoor-picnic"
+  },
+  {
+    "id": "lifestyle-neon-gaming-desk",
+    "scene": "product",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Neon Gaming Desk",
+    "titleZh": "霓虹电竞桌面",
+    "summary": "Puts the product on a dark desk mat in a gaming setup lit by purple and cyan neon, with a keyboard and monitor glow blurred behind it. It suits mice, headsets, controllers, keyboards and other gaming gear. The neon adds colored reflections along the product's edges, so check that its own colors still read correctly.",
+    "summaryZh": "把商品放到电竞桌面的深色鼠标垫上，紫色和青色霓虹灯照明，背后是虚化的键盘和显示器光。适合鼠标、耳机、手柄、键盘这类游戏外设。霓虹灯会在商品边缘打出彩色反光，留意商品本身的颜色是否还看得准。",
+    "prompt": "Keep the product unchanged, including its shape, buttons and logo. Place it on a dark desk mat in a gaming setup, with a mechanical keyboard and the glow of a monitor softly blurred behind it. Purple and cyan neon light with subtle RGB reflections along the product's edges. Moody, high-contrast tech product photo.",
+    "promptZh": "商品保持不变，形状、按键和标志都不动。放在电竞桌面的深色鼠标垫上，背后是柔和虚化的机械键盘和显示器光。紫色和青色霓虹灯光，商品边缘带一点 RGB 反光。氛围感强、对比度高的数码产品照片。",
+    "tags": [
+      "Gaming",
+      "Neon",
+      "RGB",
+      "Tech"
+    ],
+    "images": {
+      "before": "images/lifestyle-neon-gaming-desk-before.webp",
+      "after": "images/lifestyle-neon-gaming-desk-after.webp"
+    },
+    "url": "https://yepshot.com/explore/lifestyle-neon-gaming-desk"
+  },
+  {
+    "id": "cleanup-remove-glare-reflections",
+    "scene": "product",
+    "operation": "remove",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Remove Glare on Shiny Surfaces",
+    "titleZh": "去除金属与玻璃反光",
+    "summary": "Removes window reflections, glare and the photographer's own reflection from glossy surfaces such as glass bottles, chrome, jewelry and phone screens. Brush over only the reflective area before you run it. The glare is replaced with a smooth highlight that follows the curve of the surface, so it still looks shiny, just without the distractions.",
+    "summaryZh": "去掉玻璃瓶、镀铬件、首饰、手机屏这类光滑表面上的窗户倒影、炫光和拍摄者自己的倒影。运行前只涂反光的那一块。模型会换成一道顺着表面弧度的柔和高光，材质依然有光泽，只是没了干扰。",
+    "prompt": "Remove the glare, window reflections and camera reflection in the marked area of the shiny surface. Replace them with a smooth, even highlight that follows the surface's curvature, so it blends seamlessly with the rest of the product. Keep everything outside the marked area unchanged.",
+    "promptZh": "去除选区内反光表面上的眩光、窗户倒影和相机倒影，换成顺着曲面走向的平滑均匀高光，与商品其他部分无缝衔接。选区外保持不变。",
+    "tags": [
+      "Reflection",
+      "Glare",
+      "Cleanup",
+      "Retouch"
+    ],
+    "images": {
+      "before": "images/cleanup-remove-glare-reflections-before.webp",
+      "after": "images/cleanup-remove-glare-reflections-after.webp"
+    },
+    "url": "https://yepshot.com/explore/cleanup-remove-glare-reflections"
+  },
+  {
+    "id": "cleanup-erase-barcode-watermark",
+    "scene": "product",
+    "operation": "remove",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Erase Barcode and Price Sticker",
+    "titleZh": "擦除条形码与价格贴纸",
+    "summary": "Erases barcodes, price stickers and store labels from packaging so the product photo can be reused in ads or on your own shop. Brush over the sticker before you run it, and the model rebuilds the printed pattern underneath. Check fine text near the edited area afterward, since rebuilt print can differ slightly from the original.",
+    "summaryZh": "擦掉包装上的条形码、价格贴纸和门店标签，让商品照可以拿去做广告或放进自己的店铺。运行前把贴纸涂出来，模型会把底下的印刷图案补齐。补出来的印刷可能和原样略有差别，完成后检查一下附近的小字。",
+    "prompt": "Erase the barcode, price sticker and any text label in the marked area. Rebuild the packaging underneath so its color, texture and printed pattern continue naturally, with no smudges or leftover edges. Keep everything outside the marked area unchanged.",
+    "promptZh": "擦除选区内的条形码、价格贴纸和文字标签，还原下面的包装，让底色、材质和印刷图案自然延续，不留污迹或残边。选区外保持不变。",
+    "tags": [
+      "Barcode",
+      "Price Tag",
+      "Erase",
+      "Packaging"
+    ],
+    "images": {
+      "before": "images/cleanup-erase-barcode-watermark-before.webp",
+      "after": "images/cleanup-erase-barcode-watermark-after.webp"
+    },
+    "url": "https://yepshot.com/explore/cleanup-erase-barcode-watermark"
+  },
+  {
+    "id": "cleanup-dust-fingerprints",
+    "scene": "product",
+    "operation": "remove",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Remove Dust and Fingerprints",
+    "titleZh": "去除灰尘和指纹",
+    "summary": "Cleans dust, lint, fingerprints and fine scratches off the product's surface while leaving its shape, finish, logo and the background alone. Glossy plastic, glass and polished metal show smudges the most, and this saves a reshoot. Deeper scratches and dents can get smoothed over too, so do not use it to hide real damage on items you sell as new.",
+    "summaryZh": "清掉商品表面的灰尘、绒毛、指纹和细小划痕，形状、表面质感、标志和背景都不动。亮面塑料、玻璃和抛光金属最容易留指纹，用它可以省掉一次重拍。较深的划痕和凹痕也可能被抹平，当新品出售的商品不要用它掩盖真实瑕疵。",
+    "prompt": "Remove all dust, lint, fingerprints and fine scratches from the product's surface. Keep its shape, color, glossy finish, logo and reflections exactly as they are, and leave the background unchanged. Clean, freshly unboxed look.",
+    "promptZh": "去掉商品表面所有的灰尘、绒毛、指纹和细小划痕。形状、颜色、亮面质感、标志和反光都保持原样，背景不变。干净得像刚拆封一样。",
+    "tags": [
+      "Cleanup",
+      "Dust",
+      "Fingerprints",
+      "Retouch"
+    ],
+    "images": {
+      "before": "images/cleanup-dust-fingerprints-before.webp",
+      "after": "images/cleanup-dust-fingerprints-after.webp"
+    },
+    "url": "https://yepshot.com/explore/cleanup-dust-fingerprints"
+  },
+  {
+    "id": "compose-product-into-scene",
+    "scene": "product",
+    "operation": "compose",
+    "mode": "multi-fusion",
+    "requiresMask": false,
+    "title": "Place a Product into Your Scene",
+    "titleZh": "把商品放进实拍场景",
+    "summary": "Uses two images: IMG_1 is your scene, IMG_2 is the product. The product is placed on the table in IMG_1 with matching perspective, light direction and color temperature, plus a contact shadow. It is a quick way to get lifestyle shots without building a set. If your scene has no table, change \"on the table\" to the surface you have.",
+    "summaryZh": "需要两张图：IMG_1 是场景，IMG_2 是商品。模型会把商品放到 IMG_1 的桌面上，透视、光线方向和色温都和场景对齐，并补上接触阴影。不用搭景就能出生活场景图。场景里没有桌子的话，把提示词里的“on the table”改成实际的台面。",
+    "prompt": "Place the product from IMG_2 on the table in IMG_1. Keep the product's shape, label and colors exactly as in IMG_2. Match IMG_1's perspective, lighting direction and color temperature, and add a natural contact shadow so the product looks photographed in place. Keep the rest of IMG_1 unchanged.",
+    "promptZh": "把 IMG_2 里的商品放到 IMG_1 的桌面上。商品的形状、标签和颜色与 IMG_2 完全一致。匹配 IMG_1 的透视、光线方向和色温，并加上自然的接触阴影，让它看起来像是现场拍的。IMG_1 其余部分保持不变。",
+    "tags": [
+      "Composite",
+      "Scene",
+      "Lifestyle",
+      "Placement"
+    ],
+    "images": {
+      "before": "images/compose-product-into-scene-before.webp",
+      "after": "images/compose-product-into-scene-after.webp",
+      "reference": "images/compose-product-into-scene-reference.webp"
+    },
+    "url": "https://yepshot.com/explore/compose-product-into-scene"
+  },
+  {
+    "id": "compose-bundle-group-shot",
+    "scene": "product",
+    "operation": "compose",
+    "mode": "multi-fusion",
+    "requiresMask": false,
+    "title": "Bundle Two Products into One Shot",
+    "titleZh": "两件商品合成套装图",
+    "summary": "Uses two images: IMG_1 and IMG_2 are separate product photos. The result places both products side by side on pure white with matching light and shadows, a quick way to make a gift-set or bundle image without shooting them together. The model cannot know the products' real sizes, so if one is much larger, say so in the prompt, for example \"the bottle is twice as tall as the jar\".",
+    "summaryZh": "需要两张图：IMG_1 和 IMG_2 分别是两件商品的照片。结果是两件商品并排放在纯白背景上，光线和阴影一致，不用合拍就能做出礼盒或套装图。模型不知道商品的真实尺寸，如果两者大小差别明显，在提示词里写清楚，比如“瓶子的高度是罐子的两倍”。",
+    "prompt": "Combine the product in IMG_1 and the product in IMG_2 into one bundle photo. Keep both products exactly as they are, including their shapes, labels and colors. Arrange them side by side on a pure white background with the same soft studio light and natural contact shadows. Clean gift-set listing image.",
+    "promptZh": "把 IMG_1 和 IMG_2 里的商品合成一张套装图。两件商品都保持原样，形状、标签和颜色都不变。并排放在纯白背景上，用同样柔和的影棚光和自然的接触阴影。干净的礼盒套装商品图。",
+    "tags": [
+      "Bundle",
+      "Gift Set",
+      "Composite",
+      "White Background"
+    ],
+    "images": {
+      "before": "images/compose-bundle-group-shot-before.webp",
+      "after": "images/compose-bundle-group-shot-after.webp",
+      "reference": "images/compose-bundle-group-shot-reference.webp"
+    },
+    "url": "https://yepshot.com/explore/compose-bundle-group-shot"
+  },
+  {
+    "id": "compose-match-catalog-style",
+    "scene": "product",
+    "operation": "compose",
+    "mode": "multi-fusion",
+    "requiresMask": false,
+    "title": "Match Your Existing Catalog Look",
+    "titleZh": "套用已有的目录风格",
+    "summary": "Uses two images: IMG_1 is the new product photo, IMG_2 is a photo from your existing catalog. The new product gets IMG_2's background color, lighting direction, shadow style and color grade, so a new SKU sits naturally next to the old ones. The prompt tells the model not to copy the product in IMG_2, but check that nothing from it slipped in.",
+    "summaryZh": "需要两张图：IMG_1 是新商品的照片，IMG_2 是你现有目录里的一张图。新商品会套用 IMG_2 的背景色、光线方向、阴影风格和调色，新上架的款和老款放在一起不突兀。提示词要求模型不要照搬 IMG_2 里的商品，但还是检查一下有没有混进来。",
+    "prompt": "Restyle IMG_1 to match the look of IMG_2: use the same background color, lighting direction, shadow style and color grade. Keep the product in IMG_1 exactly as it is, including its shape, label and colors. Do not copy the product or props from IMG_2.",
+    "promptZh": "按 IMG_2 的风格重新处理 IMG_1：用一样的背景色、光线方向、阴影风格和调色。IMG_1 里的商品保持原样，形状、标签和颜色都不变。不要照搬 IMG_2 里的商品和道具。",
+    "tags": [
+      "Consistency",
+      "Catalog",
+      "Brand Style",
+      "Reference"
+    ],
+    "images": {
+      "before": "images/compose-match-catalog-style-before.webp",
+      "after": "images/compose-match-catalog-style-after.webp",
+      "reference": "images/compose-match-catalog-style-reference.webp"
+    },
+    "url": "https://yepshot.com/explore/compose-match-catalog-style"
+  },
+  {
+    "id": "apparel-ghost-mannequin-to-street-model",
+    "scene": "fashion",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Ghost Mannequin to Street Model",
+    "titleZh": "假人挂拍转模特街拍",
+    "summary": "Turns a ghost-mannequin or flat-lay garment photo into a street-style shot of a model walking on cobblestones in golden-hour light. Cut, color, pattern, buttons and seams are held fixed. Edit the model description or the location in the prompt to match your brand, for example a male model or a modern city street.",
+    "summaryZh": "把隐形模特或平铺拍的服装照，变成模特在欧洲石板路上行走的街拍，黄昏侧光。版型、颜色、图案、纽扣和缝线都锁定不变。可以按品牌调性改提示词里的模特描述和地点，比如换成男模或现代城市街道。",
+    "prompt": "Show the garment in this photo worn by a tall female model walking on a European cobblestone street. Keep the garment exactly as it is: cut, color, pattern, buttons and seams. Natural fabric folds and movement, golden-hour side light, 35mm street fashion photo.",
+    "promptZh": "让照片里的这件衣服穿在一位高挑的女模特身上，她走在欧洲的鹅卵石街道上。衣服保持原样：版型、颜色、图案、纽扣和缝线都不变。布料有自然的褶皱和动感，黄金时刻侧光，35mm 街拍风格。",
+    "tags": [
+      "Ghost Mannequin",
+      "On-Model",
+      "Street Style",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/apparel-ghost-mannequin-to-street-model-before.webp",
+      "after": "images/apparel-ghost-mannequin-to-street-model-after.webp"
+    },
+    "url": "https://yepshot.com/explore/apparel-ghost-mannequin-to-street-model"
+  },
+  {
+    "id": "compose-virtual-try-on",
+    "scene": "fashion",
+    "operation": "compose",
+    "mode": "multi-fusion",
+    "requiresMask": false,
+    "title": "Virtual Try-On",
+    "titleZh": "虚拟试穿",
+    "summary": "Uses two images: IMG_1 is the person, IMG_2 is the garment. The person keeps their face, hair, body shape and pose, and wears the garment with folds that follow that pose. It helps you preview an outfit or show one item on different people. A clear, front-facing garment photo gives the most accurate result.",
+    "summaryZh": "需要两张图：IMG_1 是人，IMG_2 是衣服。人物的脸、发型、身形和姿势都不变，穿上 IMG_2 的衣服，褶皱跟着姿势走。可以用来预览穿搭，或者让同一件衣服出现在不同模特身上。衣服图越清晰、越正面，效果越准。",
+    "prompt": "Dress the person in IMG_1 in the garment from IMG_2. Keep the person's face, hairstyle, body shape and pose unchanged. Keep the garment's cut, color, fabric texture and seams exactly as in IMG_2, with natural folds that fit the pose. Keep IMG_1's background and lighting.",
+    "promptZh": "给 IMG_1 里的人穿上 IMG_2 的这件衣服。人物的脸、发型、身形和姿势保持不变。衣服的版型、颜色、面料纹理和缝线与 IMG_2 一致，并随姿势形成自然褶皱。保留 IMG_1 的背景和光线。",
+    "tags": [
+      "Try-On",
+      "Outfit",
+      "Lookbook",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/compose-virtual-try-on-before.webp",
+      "after": "images/compose-virtual-try-on-after.webp",
+      "reference": "images/compose-virtual-try-on-reference.webp"
+    },
+    "url": "https://yepshot.com/explore/compose-virtual-try-on"
+  },
+  {
+    "id": "apparel-silk-texture-upgrade",
+    "scene": "fashion",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Upgrade Fabric to Silk",
+    "titleZh": "面料换成真丝质感",
+    "summary": "Changes the fabric of a garment to heavy, lustrous mulberry silk while keeping its cut, seams, color and fit. Brush over the garment before you run it. It is useful for previewing a material upgrade or a premium version of a design before ordering samples. Replace \"mulberry silk\" with another fabric to try other materials.",
+    "summaryZh": "把衣服面料换成厚实有光泽的桑蚕丝，版型、缝线、颜色和合身度都不变。运行前先涂出衣服的区域。适合在打样前预览换面料或做高端款的效果。把提示词里的“mulberry silk”换成别的面料，就能试其他材质。",
+    "prompt": "Change the fabric of the garment in the marked area to heavy, lustrous mulberry silk with a fluid drape and soft highlights along the folds. Keep the garment's cut, seams, color and fit unchanged, and keep everything outside the marked area as it is.",
+    "promptZh": "把选区内衣服的面料换成有光泽的重磅桑蚕丝，垂坠流畅，褶皱处带柔和高光。衣服的剪裁、缝线、颜色和版型不变，选区外保持原样。",
+    "tags": [
+      "Silk",
+      "Fabric",
+      "Texture Swap",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/apparel-silk-texture-upgrade-before.webp",
+      "after": "images/apparel-silk-texture-upgrade-after.webp"
+    },
+    "url": "https://yepshot.com/explore/apparel-silk-texture-upgrade"
+  },
+  {
+    "id": "cleanup-smooth-fabric-wrinkles",
+    "scene": "fashion",
+    "operation": "remove",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Smooth Out Fabric Wrinkles",
+    "titleZh": "抚平衣物褶皱",
+    "summary": "Smooths creases in clothing as if it had been steamed, without flattening the weave or the garment's natural shading. Brush over the wrinkled area first. It saves a reshoot when a product or model photo shows packing folds. Leave natural folds at the elbows or waist unmarked so the garment still looks worn.",
+    "summaryZh": "像用挂烫机熨过一样抚平衣服上的褶皱，同时保留织物纹理和衣服本身的明暗。先涂出有褶皱的区域。商品图或模特图上有运输压痕时，不用重拍。手肘、腰部这类穿着时自然形成的褶皱别涂，衣服看起来才像真的穿在身上。",
+    "prompt": "Smooth out the creases and wrinkles in the marked area as if the garment had been professionally steamed. Keep the woven fabric texture, color, seams and the garment's natural shading. Keep everything outside the marked area unchanged.",
+    "promptZh": "抚平选区内的折痕和褶皱，效果像专业熨烫过一样。保留织物纹理、颜色、缝线和衣服自然的明暗。选区外保持不变。",
+    "tags": [
+      "Wrinkles",
+      "Ironing",
+      "Flat Lay",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/cleanup-smooth-fabric-wrinkles-before.webp",
+      "after": "images/cleanup-smooth-fabric-wrinkles-after.webp"
+    },
+    "url": "https://yepshot.com/explore/cleanup-smooth-fabric-wrinkles"
+  },
+  {
+    "id": "fashion-garment-recolor",
+    "scene": "fashion",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Recolor a Garment",
+    "titleZh": "服装改色出多色款",
+    "summary": "Recolors a garment while keeping its texture, stitching, folds and shading, so it looks like the same piece dyed in another color. Brush over the garment first, then change \"sage green\" in the prompt to the color you want. Run it once per color to build a full colorway set from a single photo.",
+    "summaryZh": "给衣服换颜色，纹理、缝线、褶皱和明暗都保留，看起来就是同一件衣服染成了新颜色。先涂出衣服，再把提示词里的“sage green”改成想要的颜色。每个颜色跑一次，一张照片就能出整套多色款。",
+    "prompt": "Change the color of the garment in the marked area to sage green. Keep the fabric texture, stitching, folds, shadows and highlights exactly as they are, so it looks like the same garment dyed in a new color. Keep everything outside the marked area unchanged.",
+    "promptZh": "把选区内衣服的颜色改成鼠尾草绿。面料纹理、车线、褶皱、阴影和高光都保持原样，看起来就像同一件衣服换了染色。选区外保持不变。",
+    "tags": [
+      "Recolor",
+      "Color Variant",
+      "Hoodie",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/fashion-garment-recolor-before.webp",
+      "after": "images/fashion-garment-recolor-after.webp"
+    },
+    "url": "https://yepshot.com/explore/fashion-garment-recolor"
+  },
+  {
+    "id": "fashion-model-studio-backdrop",
+    "scene": "fashion",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Clean Studio Backdrop for Model Shots",
+    "titleZh": "模特图换纯色影棚背景",
+    "summary": "Replaces a cluttered location background with a seamless light gray studio backdrop and a soft floor shadow, keeping the model, pose, outfit and the light on them unchanged. Use it to make photos from different shoots look like one consistent catalog. For a pure white background, change \"light gray\" in the prompt.",
+    "summaryZh": "把杂乱的实景背景换成浅灰色无缝影棚背景，脚下补一道柔和的投影；模特、姿势、服装和身上的光线都不变。适合把不同场次拍的照片统一成同一套目录风格。想要纯白背景，把提示词里的“light gray”改掉即可。",
+    "prompt": "Keep the model, pose, outfit and the lighting on the model exactly as they are. Replace the cluttered background with a seamless light gray studio backdrop and add a soft, natural shadow on the floor behind the feet. Clean fashion e-commerce look.",
+    "promptZh": "模特、姿势、服装和身上的光线都保持原样。把杂乱的背景换成无缝浅灰色影棚背景，脚后地面加一道柔和自然的阴影。干净的服装电商风格。",
+    "tags": [
+      "Model",
+      "Studio",
+      "Background",
+      "Apparel"
+    ],
+    "images": {
+      "before": "images/fashion-model-studio-backdrop-before.webp",
+      "after": "images/fashion-model-studio-backdrop-after.webp"
+    },
+    "url": "https://yepshot.com/explore/fashion-model-studio-backdrop"
+  },
+  {
+    "id": "portrait-platinum-blonde-hair",
+    "scene": "portrait",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Change Hair to Platinum Blonde",
+    "titleZh": "发色换成铂金色",
+    "summary": "Recolors hair to bright platinum blonde with soft golden undertones, keeping the hairstyle, individual strands, shine and hairline. Brush over the hair before you run it so the face stays untouched. It lets salons and clients preview a color before committing to it. Edit the color description in the prompt to try other shades.",
+    "summaryZh": "把头发换成带暖金底调的亮铂金色，发型、发丝、光泽和发际线都保留。运行前先涂出头发，脸部就不会被改动。适合发型店和顾客在染发前预览效果。改提示词里的颜色描述，可以试其他发色。",
+    "prompt": "Recolor the hair in the marked area to a bright platinum blonde with soft golden undertones. Keep the hairstyle, individual strands, shine and natural hairline transitions. Keep the face and everything outside the marked area unchanged.",
+    "promptZh": "把选区内的头发染成明亮的铂金色，带一点柔和的金色底调。发型、发丝细节、光泽和发际线的自然过渡都保留。脸部和选区外保持不变。",
+    "tags": [
+      "Hair",
+      "Hair Color",
+      "Blonde",
+      "Portrait"
+    ],
+    "images": {
+      "before": "images/portrait-platinum-blonde-hair-before.webp",
+      "after": "images/portrait-platinum-blonde-hair-after.webp"
+    },
+    "url": "https://yepshot.com/explore/portrait-platinum-blonde-hair"
+  },
+  {
+    "id": "portrait-skin-texture-refinement",
+    "scene": "portrait",
+    "operation": "restore",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Natural Skin Retouch",
+    "titleZh": "保留毛孔的自然修肤",
+    "summary": "Reduces redness and small blemishes on the face while keeping real pores, freckles and natural variation in skin tone, so the result does not look plastic. Face shape, features, expression and lighting stay the same. It suits portraits, headshots and profile photos that need a light retouch rather than a heavy beauty filter.",
+    "summaryZh": "淡化脸上的泛红和小瑕疵，同时保留真实的毛孔、雀斑和肤色的自然变化，不会修成塑料脸。脸型、五官、表情和光线都不变。适合人像、形象照和头像这类只需要轻度修饰、不想用重度美颜的照片。",
+    "prompt": "Retouch the skin on the face: reduce temporary redness and small blemishes while keeping the real pore texture, freckles and natural skin tone variation. No plastic smoothing. Keep the face shape, features, expression and lighting exactly as they are.",
+    "promptZh": "修饰面部皮肤：淡化暂时性泛红和小瑕疵，同时保留真实的毛孔纹理、雀斑和自然的肤色变化，不要磨皮成塑料感。脸型、五官、表情和光线都保持不变。",
+    "tags": [
+      "Skin",
+      "Retouch",
+      "Beauty",
+      "Portrait"
+    ],
+    "images": {
+      "before": "images/portrait-skin-texture-refinement-before.webp",
+      "after": "images/portrait-skin-texture-refinement-after.webp"
+    },
+    "url": "https://yepshot.com/explore/portrait-skin-texture-refinement"
+  },
+  {
+    "id": "portrait-business-headshot",
+    "scene": "portrait",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Casual Photo to Business Headshot",
+    "titleZh": "生活照变职业形象照",
+    "summary": "Turns a casual photo into a professional headshot: a mid-gray studio backdrop, a navy blazer over a white shirt, and soft front light. Face, features, hairstyle and expression are kept the same. Use it for LinkedIn, company pages or speaker bios. A photo where you face the camera in even light works best.",
+    "summaryZh": "把生活照变成职业形象照：中灰色影棚背景、藏青西装配白衬衫、正面柔光。脸、五官、发型和表情都保持原样。适合领英、公司官网或演讲嘉宾介绍。原图最好是正对镜头、光线均匀的照片。",
+    "prompt": "Turn this into a professional business headshot. Keep the person's face, features, hairstyle and expression exactly the same. Replace the background with a smooth mid-gray studio backdrop, dress the person in a navy blazer over a white shirt, and use soft key light from the front left. Sharp focus on the eyes.",
+    "promptZh": "把这张照片变成职业形象照。人物的脸、五官、发型和表情完全不变。背景换成平滑的中灰色影棚背景，换上藏青色西装外套配白衬衫，左前方柔和主光。眼睛清晰对焦。",
+    "tags": [
+      "Headshot",
+      "LinkedIn",
+      "Business",
+      "Portrait"
+    ],
+    "images": {
+      "before": "images/portrait-business-headshot-before.webp",
+      "after": "images/portrait-business-headshot-after.webp"
+    },
+    "url": "https://yepshot.com/explore/portrait-business-headshot"
+  },
+  {
+    "id": "portrait-id-photo",
+    "scene": "portrait",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "ID Photo with White Background",
+    "titleZh": "证件照白底",
+    "summary": "Produces a passport-style ID photo: a front-facing head-and-shoulders crop on a plain white background, with even lighting and no shadows. Face, features, hairstyle and skin tone are kept as they are. Size and background rules differ by country and document, so check the official requirements and crop to the exact dimensions before you submit it.",
+    "summaryZh": "生成护照风格的证件照：正面头肩构图、纯白背景、光线均匀无阴影。脸、五官、发型和肤色都保持原样。不同国家和证件对尺寸、背景的要求不一样，提交前请对照官方要求，并裁成规定的尺寸。",
+    "prompt": "Turn this into a passport-style ID photo: a front-facing head-and-shoulders crop on a plain white background, with even lighting and no shadows on the face or background. Keep the person's face, features, hairstyle and skin tone exactly the same.",
+    "promptZh": "做成证件照：正面头肩构图，纯白背景，光线均匀，脸上和背景都没有阴影。人物的脸、五官、发型和肤色完全不变。",
+    "tags": [
+      "ID Photo",
+      "Passport",
+      "White Background",
+      "Portrait"
+    ],
+    "images": {
+      "before": "images/portrait-id-photo-before.webp",
+      "after": "images/portrait-id-photo-after.webp"
+    },
+    "url": "https://yepshot.com/explore/portrait-id-photo"
+  },
+  {
+    "id": "portrait-remove-photobomber",
+    "scene": "portrait",
+    "operation": "remove",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Remove People from the Background",
+    "titleZh": "去除背景路人",
+    "summary": "Removes strangers and passers-by from the background of a photo and rebuilds the scenery behind them, with no blur, smears or leftover shadows. Brush over the people you want gone before you run it. The main subject and everything outside the marked area stay as they are, which makes it handy for travel photos.",
+    "summaryZh": "去掉照片背景里的陌生人或路人，并把他们身后的景物补齐，不留模糊、涂抹痕迹或残影。运行前涂出要去掉的人。主体和涂抹区域以外的内容都不变，旅行照特别用得上。",
+    "prompt": "Remove the people in the marked area and rebuild the background behind them so the scenery, lighting and perspective continue naturally, with no blur, smears or leftover shadows. Keep the main subject and everything outside the marked area unchanged.",
+    "promptZh": "去掉选区内的路人，补全他们身后的背景，让景物、光线和透视自然延续，不留模糊、涂抹痕迹或残影。主体人物和选区外保持不变。",
+    "tags": [
+      "Photobomber",
+      "Tourists",
+      "Erase",
+      "Travel"
+    ],
+    "images": {
+      "before": "images/portrait-remove-photobomber-before.webp",
+      "after": "images/portrait-remove-photobomber-after.webp"
+    },
+    "url": "https://yepshot.com/explore/portrait-remove-photobomber"
+  },
+  {
+    "id": "seasonal-christmas-pine-bokeh",
+    "scene": "campaign",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Christmas Pine and Warm Bokeh",
+    "titleZh": "圣诞松枝与暖色光斑",
+    "summary": "Sets the product on dark rustic wood with fresh pine branches, frosted pinecones and warm bokeh from fairy lights. It is a ready-made holiday scene for Christmas campaigns, gift guides and seasonal banners, without building a set. The product itself stays unchanged, so one product photo can be reused for every season.",
+    "summaryZh": "把商品放在深色做旧木板上，周围是新鲜松枝和挂霜松果，背景是彩灯形成的暖色光斑。不用搭景就有一套现成的圣诞场景，适合圣诞促销、礼物推荐和节日横幅。商品本身不变，同一张商品图可以反复用来做各个节日的图。",
+    "prompt": "Keep the product unchanged. Place it on dark rustic wood surrounded by fresh pine branches and a few frosted pinecones, with golden fairy lights forming warm, round bokeh in the background. Cozy, premium Christmas campaign look.",
+    "promptZh": "商品保持不变。放在做旧的深色木板上，周围是新鲜松枝和几颗挂霜的松果，背景里金色小灯串形成温暖的圆形光斑。温馨高级的圣诞促销氛围。",
+    "tags": [
+      "Christmas",
+      "Holiday",
+      "Winter",
+      "Bokeh"
+    ],
+    "images": {
+      "before": "images/seasonal-christmas-pine-bokeh-before.webp",
+      "after": "images/seasonal-christmas-pine-bokeh-after.webp"
+    },
+    "url": "https://yepshot.com/explore/seasonal-christmas-pine-bokeh"
+  },
+  {
+    "id": "seasonal-summer-pool-water-ripples",
+    "scene": "campaign",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Summer Pool Water and Caustics",
+    "titleZh": "夏日泳池水波与光影",
+    "summary": "Stands the product in clear turquoise pool water with sunlight caustics across it and ripples around its base. It suits drinks, sunscreen, swimwear accessories and anything sold with a summer angle. Waterproof products look most natural here; for items that should never get wet, a dry poolside scene may be the safer choice.",
+    "summaryZh": "让商品立在清澈的浅蓝泳池水里，阳光在商品上投下水波光纹，底部有一圈涟漪。适合饮料、防晒、泳装配件等主打夏天的商品。防水的商品放在水里最自然；不该沾水的商品，换成泳池边的干燥场景更稳妥。",
+    "prompt": "Keep the product unchanged. Place it standing in shallow, crystal-clear turquoise pool water, with dancing sunlight caustics across the product and gentle ripples around its base. Bright tropical sunlight, refreshing summer campaign look.",
+    "promptZh": "商品保持不变。让它立在清澈的绿松石色浅水中，阳光焦散在商品表面跳动，底部有轻柔的涟漪。明亮的热带阳光，清凉的夏日促销氛围。",
+    "tags": [
+      "Summer",
+      "Water",
+      "Caustics",
+      "Refreshing"
+    ],
+    "images": {
+      "before": "images/seasonal-summer-pool-water-ripples-before.webp",
+      "after": "images/seasonal-summer-pool-water-ripples-after.webp"
+    },
+    "url": "https://yepshot.com/explore/seasonal-summer-pool-water-ripples"
+  },
+  {
+    "id": "seasonal-black-friday-gold-geometry",
+    "scene": "campaign",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Black Friday Black-and-Gold Pedestal",
+    "titleZh": "黑五黑金展台",
+    "summary": "Puts the product on a matte black hexagonal pedestal with brass edges, dark satin behind it and a spotlight from above. The prompt tells the model not to add text, so you can lay your own Black Friday copy and discount on top in your design tool. It suits premium products that should look discounted, not cheap.",
+    "summaryZh": "把商品放在黄铜包边的哑光黑色六角展台上，背后是深色缎面，顶部一束聚光。提示词明确要求不加文字，你可以在设计工具里自己叠黑五文案和折扣。适合想做促销、又不想显得廉价的高端商品。",
+    "prompt": "Keep the product unchanged. Place it on a matte black hexagonal pedestal with polished brass edges, with flowing dark satin fabric in the background and a dramatic spotlight from above. Luxurious Black Friday campaign look, premium commercial photography. Do not add any text.",
+    "promptZh": "商品保持不变。放在带抛光黄铜包边的哑光黑色六角展台上，背景是流动的深色丝缎，顶部一束戏剧性的聚光。奢华的黑五促销氛围，高端商业摄影。不要添加任何文字。",
+    "tags": [
+      "Black Friday",
+      "Gold",
+      "Luxury",
+      "Promo"
+    ],
+    "images": {
+      "before": "images/seasonal-black-friday-gold-geometry-before.webp",
+      "after": "images/seasonal-black-friday-gold-geometry-after.webp"
+    },
+    "url": "https://yepshot.com/explore/seasonal-black-friday-gold-geometry"
+  },
+  {
+    "id": "campaign-sale-poster-text",
+    "scene": "campaign",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Turn a Product Photo into a Sale Poster",
+    "titleZh": "商品图做成促销海报",
+    "summary": "Turns a product photo into a sale poster with \"SUMMER SALE\" at the top, \"50% OFF\" under the product and a coral background with simple shapes. Change the two quoted texts to your own offer and keep them short, since short headlines are rendered more reliably. Proofread every letter before you publish.",
+    "summaryZh": "把商品照做成促销海报：顶部是“SUMMER SALE”，商品下方是“50% OFF”，珊瑚色背景配简单几何图形。把引号里的两段文字换成你自己的活动，尽量写短，短文字更容易生成准确。发布前逐字校对一遍。",
+    "prompt": "Turn this product photo into a sale poster. Keep the product unchanged and centered. Add the headline \"SUMMER SALE\" at the top and \"50% OFF\" below the product in a bold, clean sans-serif, on a bright coral background with simple geometric shapes. Spell the text exactly as given.",
+    "promptZh": "把这张商品图做成促销海报。商品保持不变并居中。顶部加标题 \"SUMMER SALE\"，商品下方加 \"50% OFF\"，用粗体干净的无衬线字，背景是明亮的珊瑚色配简单几何图形。文字拼写与给定的完全一致。",
+    "tags": [
+      "Poster",
+      "Sale",
+      "Typography",
+      "Promo"
+    ],
+    "images": {
+      "before": "images/campaign-sale-poster-text-before.webp",
+      "after": "images/campaign-sale-poster-text-after.webp"
+    },
+    "url": "https://yepshot.com/explore/campaign-sale-poster-text"
+  },
+  {
+    "id": "seasonal-lunar-new-year",
+    "scene": "campaign",
+    "operation": "background",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Lunar New Year Red and Gold",
+    "titleZh": "新春红金氛围",
+    "summary": "Sets the product on a red lacquer tray with plum blossoms, small gold ornaments and glowing paper lanterns behind it. Use it for Lunar New Year promotions, gift boxes and festive social posts, especially for shoppers in Chinese-speaking markets. Red products can blend into the background; light, gold or metallic products stand out most.",
+    "summaryZh": "把商品放在红漆托盘上，周围是梅花枝和小金饰，背景是发光的红灯笼。适合春节促销、年货礼盒和节日社交媒体图，尤其是面向中文市场的店铺。红色商品容易和背景混在一起，浅色、金色或金属质感的商品最出效果。",
+    "prompt": "Keep the product unchanged. Place it on a red lacquer tray with plum blossom branches and small gold ornaments around it, and blurred red paper lanterns glowing in the background. Warm, festive Lunar New Year campaign look with rich red and gold tones.",
+    "promptZh": "商品保持不变。放在红色漆托盘上，周围点缀梅花枝和小金饰，背景是虚化发光的红灯笼。温暖喜庆的新春促销氛围，浓郁的红金色调。",
+    "tags": [
+      "Lunar New Year",
+      "Festive",
+      "Red",
+      "Gold"
+    ],
+    "images": {
+      "before": "images/seasonal-lunar-new-year-before.webp",
+      "after": "images/seasonal-lunar-new-year-after.webp"
+    },
+    "url": "https://yepshot.com/explore/seasonal-lunar-new-year"
+  },
+  {
+    "id": "restore-vintage-photo-reconstruction",
+    "scene": "restore",
+    "operation": "restore",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Restore a Faded Old Photo",
+    "titleZh": "泛黄老照片修复",
+    "summary": "Removes the yellow cast, dust, scratches and fold creases from an old photo and brings back detail in faces and eyes. People's features, expressions, clothing and the original composition are kept. Scan or photograph the print flat and in even light first, because glare on a glossy print is hard to recover from.",
+    "summaryZh": "去掉老照片的泛黄、灰尘、划痕和折痕，并恢复面部和眼睛的细节。人物的五官、表情、衣着和原始构图都保留。先把照片平放，在均匀光线下扫描或翻拍；光面相纸上的反光很难修复。",
+    "prompt": "Restore this old photograph: remove the yellow age cast, dust spots, scratches and fold creases, and bring back clear, natural detail in the faces and eyes. Keep the people's features, expressions, clothing and the original composition unchanged. Clean archival quality with natural contrast.",
+    "promptZh": "修复这张老照片：去掉泛黄色偏、灰尘斑点、划痕和折痕，还原清晰自然的面部与眼神细节。人物的五官、表情、服装和原始构图都保持不变。干净的档案级画质，对比自然。",
+    "tags": [
+      "Old Photo",
+      "Restoration",
+      "Scratches",
+      "Vintage"
+    ],
+    "images": {
+      "before": "images/restore-vintage-photo-reconstruction-before.webp",
+      "after": "images/restore-vintage-photo-reconstruction-after.webp"
+    },
+    "url": "https://yepshot.com/explore/restore-vintage-photo-reconstruction"
+  },
+  {
+    "id": "restore-colorize-bw",
+    "scene": "restore",
+    "operation": "restore",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Colorize a Black-and-White Photo",
+    "titleZh": "黑白照片上色",
+    "summary": "Adds natural, period-appropriate color to a black-and-white photo: realistic skin tones, clothing and surroundings, without the flat tint of a filter. Detail, grain and composition are left as they are; only color is added. The colors are the model's best guess, so if you know a dress or car was a specific color, write it into the prompt.",
+    "summaryZh": "给黑白照片加上符合年代感的自然色彩：真实的肤色、衣服和环境，不是滤镜那种整片单色。细节、颗粒和构图都不动，只加颜色。颜色是模型推测的，如果你知道某件衣服或某辆车原本的颜色，可以直接写进提示词。",
+    "prompt": "Colorize this black-and-white photo with natural, period-accurate colors: realistic skin tones, clothing and surroundings. Keep every detail, the grain structure and the composition exactly as they are; only add color. Avoid oversaturated or uniform tints.",
+    "promptZh": "给这张黑白照片上色，使用自然且符合年代的色彩：真实的肤色、服装和环境颜色。所有细节、颗粒质感和构图完全不变，只添加颜色。避免过饱和或整体单一色调。",
+    "tags": [
+      "Colorize",
+      "Black and White",
+      "Vintage",
+      "Family"
+    ],
+    "images": {
+      "before": "images/restore-colorize-bw-before.webp",
+      "after": "images/restore-colorize-bw-after.webp"
+    },
+    "url": "https://yepshot.com/explore/restore-colorize-bw"
+  },
+  {
+    "id": "restore-deblur-sharpen",
+    "scene": "restore",
+    "operation": "restore",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Fix Blur and Noise",
+    "titleZh": "去模糊与降噪",
+    "summary": "Sharpens a blurry, noisy photo by removing motion blur and grain and recovering crisp edges and fine texture. The prompt tells the model not to add new details or change shapes, so faces and objects stay true to the original. It works best on mild blur; a badly out-of-focus shot can only be improved so far.",
+    "summaryZh": "去掉运动模糊和噪点，让模糊的照片恢复清晰边缘和细节纹理。提示词要求不添加新细节、不改变形状，人脸和物体都忠于原图。轻度模糊效果最好；严重失焦的照片能改善的程度有限。",
+    "prompt": "Sharpen this blurry, noisy photo: remove motion blur and grain, and recover crisp edges and fine texture. Keep the subject, colors, lighting and composition exactly the same. Do not add new details or change any shapes.",
+    "promptZh": "让这张模糊、有噪点的照片变清晰：去掉运动模糊和噪点，恢复锐利的边缘和细腻纹理。主体、颜色、光线和构图完全不变，不要添加新细节或改变任何形状。",
+    "tags": [
+      "Deblur",
+      "Denoise",
+      "Sharpen",
+      "Pet"
+    ],
+    "images": {
+      "before": "images/restore-deblur-sharpen-before.webp",
+      "after": "images/restore-deblur-sharpen-after.webp"
+    },
+    "url": "https://yepshot.com/explore/restore-deblur-sharpen"
+  },
+  {
+    "id": "restore-low-light-fix",
+    "scene": "restore",
+    "operation": "restore",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Brighten an Underexposed Photo",
+    "titleZh": "暗光照片提亮",
+    "summary": "Brightens an underexposed photo, such as an indoor dinner or a night gathering: it raises exposure, recovers shadow detail, neutralizes the color cast and reduces noise. The scene, people and composition stay the same, and the light still looks natural. The prompt mentions faces and a table, so edit that part to describe what is in your photo.",
+    "summaryZh": "把曝光不足的照片提亮，比如室内聚餐或夜间聚会：提高曝光、找回暗部细节、校正偏色并降噪。场景、人物和构图都不变，光线看起来依然自然。提示词里提到了人脸和桌子，按照你照片里的实际内容改一下这部分。",
+    "prompt": "Fix this underexposed photo: raise the exposure so the faces and the table are clearly visible, recover detail in the shadows, neutralize the color cast and reduce noise. Keep the scene, people and composition exactly the same, and keep the light looking natural.",
+    "promptZh": "修复这张曝光不足的照片：提高曝光，让人脸和桌面清晰可见，找回暗部细节，校正偏色并降噪。场景、人物和构图完全不变，光线看起来自然。",
+    "tags": [
+      "Low Light",
+      "Exposure",
+      "Color Cast",
+      "Denoise"
+    ],
+    "images": {
+      "before": "images/restore-low-light-fix-before.webp",
+      "after": "images/restore-low-light-fix-after.webp"
+    },
+    "url": "https://yepshot.com/explore/restore-low-light-fix"
+  },
+  {
+    "id": "creative-collectible-figure",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Turn Your Pet into a Collectible Figure",
+    "titleZh": "宠物照变收藏手办",
+    "summary": "Turns a pet photo into a 1/7 scale collectible figure on a clear acrylic base, with a matching toy box behind it on a desk. The animal's markings, colors and pose are kept, so it still looks like your pet. A clear, well-lit photo of the whole animal gives the best figure, and it works for other animals too.",
+    "summaryZh": "把宠物照变成 1/7 比例的收藏手办，立在透明亚克力底座上，摆在电脑桌上，后面放着印有同款形象的包装盒。毛色、花纹和姿势都保留，一眼就能认出是你家的宠物。宠物全身入镜、光线清楚的照片效果最好，其他动物也同样适用。",
+    "prompt": "Turn the animal in this photo into a 1/7 scale collectible figure standing on a round clear acrylic base on a computer desk. Behind it, place a toy packaging box printed with the same character. Keep the animal's markings, colors and pose. Realistic studio product photo with soft light.",
+    "promptZh": "把照片里的动物做成 1/7 比例的收藏手办，立在电脑桌上的透明亚克力圆底座上。后面放一个印着同一角色的玩具包装盒。保留动物的花纹、颜色和姿态。写实的影棚产品照，柔和光线。",
+    "tags": [
+      "Figurine",
+      "Toy",
+      "Pet",
+      "Nano Banana"
+    ],
+    "images": {
+      "before": "images/creative-collectible-figure-before.webp",
+      "after": "images/creative-collectible-figure-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-collectible-figure"
+  },
+  {
+    "id": "creative-watercolor-illustration",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Photo to Watercolor Illustration",
+    "titleZh": "照片变水彩插画",
+    "summary": "Redraws a photo as a loose watercolor on textured paper, with soft washes, visible brush strokes and fine ink outlines, while keeping the composition recognizable. It suits travel photos, buildings and street scenes, and makes good cards, prints or blog headers. Photos with a clear main subject and a simple background give the cleanest painting.",
+    "summaryZh": "把照片重绘成纹理纸上的水彩插画：柔和的晕染、看得见的笔触和细墨线，构图依然认得出来。适合旅行照、建筑和街景，可以做贺卡、装饰画或博客头图。主体明确、背景简单的照片画出来最干净。",
+    "prompt": "Redraw this photo as a loose watercolor illustration on textured paper, with soft color washes, visible brush strokes and fine ink outlines. Keep the composition, buildings and main shapes recognizable. Light, airy palette with white paper showing through.",
+    "promptZh": "把这张照片重绘成水彩插画，画在有纹理的纸上：柔和的色彩晕染、可见的笔触和细墨线。构图、建筑和主要形状保持可辨认。色调轻盈通透，留出纸张的白。",
+    "tags": [
+      "Watercolor",
+      "Illustration",
+      "Travel",
+      "Art"
+    ],
+    "images": {
+      "before": "images/creative-watercolor-illustration-before.webp",
+      "after": "images/creative-watercolor-illustration-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-watercolor-illustration"
+  },
+  {
+    "id": "creative-3d-clay",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Photo to 3D Clay Character",
+    "titleZh": "照片变 3D 黏土风",
+    "summary": "Restyles a photo as a handmade clay stop-motion scene, with soft rounded shapes, fingerprint texture and a miniature set. The subject's pose, colors and key features stay recognizable. It works for people, pets and products, and makes a playful profile picture, sticker or social post that still looks like the original subject.",
+    "summaryZh": "把照片变成手工黏土定格动画风格：圆润的造型、黏土上的指纹质感和微缩场景。主体的姿势、颜色和关键特征都认得出来。人、宠物、商品都能用，适合做有趣的头像、贴纸或社交媒体配图。",
+    "prompt": "Transform this photo into a handmade 3D clay animation style, with soft rounded shapes, visible fingerprint texture in the clay and a miniature set. Keep the subject's pose, colors and key features recognizable. Warm soft lighting, playful stop-motion look.",
+    "promptZh": "把这张照片变成手工 3D 黏土动画风格：圆润柔和的造型、黏土上可见的指纹纹理和微缩布景。保留主体的姿势、颜色和主要特征。温暖柔光，俏皮的定格动画质感。",
+    "tags": [
+      "Clay",
+      "3D",
+      "Stop Motion",
+      "Cute"
+    ],
+    "images": {
+      "before": "images/creative-3d-clay-before.webp",
+      "after": "images/creative-3d-clay-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-3d-clay"
+  },
+  {
+    "id": "creative-sketch-to-render",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Sketch to Product Render",
+    "titleZh": "线稿变产品效果图",
+    "summary": "Turns a pencil sketch into a photorealistic product render that follows the sketch's shape and proportions. The example prompt describes a sneaker in white leather, gray suede and rubber, so rewrite the materials line for your own design. Designers use it to show a concept to a client or factory before any sample exists.",
+    "summaryZh": "把铅笔线稿变成照片级的产品效果图，形状和比例严格按线稿来。示例提示词描述的是一双白色皮革、灰色麂皮、橡胶底的运动鞋，换成你自己的设计时改写材质那一句即可。设计师可以在打样前就把概念展示给客户或工厂。",
+    "prompt": "Turn this pencil sketch into a photorealistic product render. Follow the sketch's shape, proportions and details exactly. Use realistic materials: white leather upper, gray suede panels and a rubber sole, on a light gray studio background with soft shadows.",
+    "promptZh": "把这张铅笔线稿变成写实的产品效果图。严格按照线稿的造型、比例和细节。使用真实材质：白色皮革鞋面、灰色麂皮拼接和橡胶鞋底，浅灰色影棚背景，柔和阴影。",
+    "tags": [
+      "Sketch",
+      "Render",
+      "Product Design",
+      "Sneaker"
+    ],
+    "images": {
+      "before": "images/creative-sketch-to-render-before.webp",
+      "after": "images/creative-sketch-to-render-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-sketch-to-render"
+  },
+  {
+    "id": "compose-style-transfer",
+    "scene": "creative",
+    "operation": "compose",
+    "mode": "multi-fusion",
+    "requiresMask": false,
+    "title": "Borrow the Style of a Reference Image",
+    "titleZh": "参考图风格迁移",
+    "summary": "Uses two images: IMG_1 is the picture to redraw, IMG_2 is the style reference. The result keeps IMG_1's composition, subject and proportions and takes the color palette, texture and brushwork from IMG_2, without copying its objects. Use it to match a brand's illustration style or to give your photo the look of a painting.",
+    "summaryZh": "需要两张图：IMG_1 是要重绘的图，IMG_2 是风格参考。结果保留 IMG_1 的构图、主体和比例，借用 IMG_2 的配色、质感和笔触，但不会照搬里面的物体。可以用来对齐品牌插画风格，或者把某幅画的风格套到自己的照片上。",
+    "prompt": "Redraw IMG_1 in the visual style of IMG_2: use its color palette, texture and brushwork. Keep IMG_1's composition, subject and proportions intact. Do not copy any objects from IMG_2.",
+    "promptZh": "按 IMG_2 的视觉风格重绘 IMG_1：采用它的配色、质感和笔触。IMG_1 的构图、主体和比例保持不变，不要照搬 IMG_2 里的任何物体。",
+    "tags": [
+      "Style Transfer",
+      "Reference",
+      "Art",
+      "Print"
+    ],
+    "images": {
+      "before": "images/compose-style-transfer-before.webp",
+      "after": "images/compose-style-transfer-after.webp",
+      "reference": "images/compose-style-transfer-reference.webp"
+    },
+    "url": "https://yepshot.com/explore/compose-style-transfer"
+  }
+]
