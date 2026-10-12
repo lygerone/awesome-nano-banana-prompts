@@ -4,7 +4,7 @@
 
 [中文版](README.zh-CN.md) · [Try them in YepShot](https://yepshot.com/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
 
-<img src="images/studio-pure-white-amazon-after.webp" width="260"> <img src="images/campaign-sale-poster-text-after.webp" width="260"> <img src="images/lifestyle-travertine-stone-after.webp" width="260">
+<img src="images/studio-pure-white-amazon-after.webp" width="220"> <img src="images/campaign-sale-poster-text-after.webp" width="220"> <img src="images/lifestyle-travertine-stone-after.webp" width="220">
 
 ## How the examples were made
 
