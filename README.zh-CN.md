@@ -1,6 +1,6 @@
 # Awesome Nano Banana Prompts
 
-45 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
+48 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
 
 [English](README.md) · [在 YepShot 里试](https://yepshot.com/zh/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
 
@@ -15,10 +15,10 @@
 
 ## 目录
 
-- [产品](#产品) (20)
+- [产品](#产品) (22)
 - [服装](#服装) (6)
 - [人像](#人像) (5)
-- [营销](#营销) (5)
+- [营销](#营销) (6)
 - [修复](#修复) (4)
 - [创意](#创意) (5)
 - [用 Gemini API 调用这些提示词](#用-gemini-api-调用这些提示词)
@@ -108,6 +108,30 @@
 ```
 
 [在 YepShot 中打开 →](https://yepshot.com/zh/explore/studio-colorway-lineup?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 修改主体 · 标签: Colorways, Variants, Mockup, Lineup
+
+### 修改商品标签上的名称 🖌
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/text-label-name-swap-before.webp" width="260" alt="修改商品标签上的名称 · 原图"></td><td><img src="images/text-label-name-swap-after.webp" width="260" alt="修改商品标签上的名称 · 效果"></td></tr></table>
+
+替换标签上的一个词，比如口味或款式名，周围的字样保持不变。先把这个词涂出来，再把新名字写进引号里，长度和原词差不多最容易排得下。实测中 LAVENDER 用的是同样的绿色衬线大写字母，贴合了瓶身弧度，标签上其他内容都没变。适合做效果图和广告；新款上架时请拍实物。
+
+```text
+把选区里的文字换成 "LAVENDER"。字体、字重、颜色和字距与原来完全一致，并贴合标签的弧度。选区外保持不变。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/text-label-name-swap?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 修改主体 · 标签: Label, Packaging, Text, Variant
+
+### 翻译包装上的文字
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/text-translate-packaging-before.webp" width="260" alt="翻译包装上的文字 · 原图"></td><td><img src="images/text-translate-packaging-after.webp" width="260" alt="翻译包装上的文字 · 效果"></td></tr></table>
+
+把盒子或标签上的英文翻译成西班牙语，品牌名、版式和插画都保留。把 Spanish 换成你要的语言即可。实测中每一行都译对了，连盒子顶盖上的字也一起翻了，但模型沿用了英文的标题式大写（写成 “Té de Hierbas”，西班牙语一般写 “Té de hierbas”）。用之前请母语者校对；实物包装并没有变，结果适合做广告和效果图。
+
+```text
+把包装上的英文翻译成西班牙语。品牌名保持不变，每行译文的字体、字号、颜色和位置与原文一致。商品、包装的其他部分和背景都保持不变。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/text-translate-packaging?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 修改主体 · 标签: Translation, Packaging, Localization, Text
 
 ### 洞石台面与晨光树影
 
@@ -450,6 +474,18 @@
 ```
 
 [在 YepShot 中打开 →](https://yepshot.com/zh/explore/campaign-sale-poster-text?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 修改主体 · 标签: Poster, Sale, Typography, Promo
+
+### 修改促销图上的折扣
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/text-promo-discount-update-before.webp" width="260" alt="修改促销图上的折扣 · 原图"></td><td><img src="images/text-promo-discount-update-after.webp" width="260" alt="修改促销图上的折扣 · 效果"></td></tr></table>
+
+修改现成促销图上的折扣，不用打开设计源文件就能把上个月的横幅再用一次。实测中只有数字变了，从 20% 改成 35%，还是原来那个徽章里的同一种粗体字；标题、按钮和商品都没动。把引号里的数字换成你自己的，发布前校对一遍。
+
+```text
+把折扣改成 "35% OFF"，图里出现的地方都要改。字体、颜色、版式、商品图和其他文字都保持原样。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/text-promo-discount-update?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 修改主体 · 标签: Promo, Discount, Banner, Text
 
 ### 新春红金氛围
 

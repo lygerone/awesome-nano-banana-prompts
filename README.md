@@ -1,6 +1,6 @@
 # Awesome Nano Banana Prompts
 
-45 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
+48 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
 
 [中文版](README.zh-CN.md) · [Try them in YepShot](https://yepshot.com/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
 
@@ -15,10 +15,10 @@
 
 ## Contents
 
-- [Product](#product) (20)
+- [Product](#product) (22)
 - [Fashion](#fashion) (6)
 - [Portrait](#portrait) (5)
-- [Campaigns](#campaigns) (5)
+- [Campaigns](#campaigns) (6)
 - [Restoration](#restoration) (4)
 - [Creative](#creative) (5)
 - [Using the prompts with the Gemini API](#using-the-prompts-with-the-gemini-api)
@@ -108,6 +108,30 @@ Show this product in four colorways side by side: its original color, sage green
 ```
 
 [Open in YepShot →](https://yepshot.com/explore/studio-colorway-lineup?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Modify · Tags: Colorways, Variants, Mockup, Lineup
+
+### Change the Name on a Product Label 🖌
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/text-label-name-swap-before.webp" width="260" alt="Change the Name on a Product Label · Before"></td><td><img src="images/text-label-name-swap-after.webp" width="260" alt="Change the Name on a Product Label · After"></td></tr></table>
+
+Swaps one word on a label, such as a flavor or variant name, keeping the lettering around it. Brush over the word, then put the new name in the quotes; a name of similar length fits the space most easily. In our test, LAVENDER came out in the same green serif capitals, followed the curve of the jar, and nothing else on the label changed. Use it for mockups and ads; photograph the real variant for its listing.
+
+```text
+Replace the text in the marked area with "LAVENDER". Match the original lettering exactly: the same typeface, weight, color and letter spacing, following the curve of the label. Keep everything outside the marked area unchanged.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/text-label-name-swap?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Modify · Tags: Label, Packaging, Text, Variant
+
+### Translate the Text on Packaging
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/text-translate-packaging-before.webp" width="260" alt="Translate the Text on Packaging · Before"></td><td><img src="images/text-translate-packaging-after.webp" width="260" alt="Translate the Text on Packaging · After"></td></tr></table>
+
+Translates the English text on a box or label into Spanish while keeping the brand name, layout and illustration. Change "Spanish" to the language you need. In our test every line was translated correctly, including the text on the box's top flap, but the model kept English title case ("Té de Hierbas" where Spanish writes "Té de hierbas"). Have a native speaker check it, and use it for ads and mockups, since the real package is unchanged.
+
+```text
+Translate the English text on the packaging into Spanish. Keep the brand name as it is, and give each translated line the same typeface, size, color and position as the original. Leave the product, the rest of the packaging and the background unchanged.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/text-translate-packaging?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Modify · Tags: Translation, Packaging, Localization, Text
 
 ### Travertine Block in Morning Light
 
@@ -450,6 +474,18 @@ Turn this product photo into a sale poster. Keep the product unchanged and cente
 ```
 
 [Open in YepShot →](https://yepshot.com/explore/campaign-sale-poster-text?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Modify · Tags: Poster, Sale, Typography, Promo
+
+### Update the Discount on a Promo Graphic
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/text-promo-discount-update-before.webp" width="260" alt="Update the Discount on a Promo Graphic · Before"></td><td><img src="images/text-promo-discount-update-after.webp" width="260" alt="Update the Discount on a Promo Graphic · After"></td></tr></table>
+
+Changes the discount on an existing sale graphic, so last month's banner can be reused without opening the design file. In our test only the digits changed, from 20% to 35%, in the same bold type inside the same badge; the headline, the button and the product were left alone. Put your own number in the quotes and proofread the result before you post it.
+
+```text
+Change the discount to "35% OFF" wherever it appears. Keep the typeface, colors, layout, product photo and every other word exactly as they are.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/text-promo-discount-update?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Modify · Tags: Promo, Discount, Banner, Text
 
 ### Lunar New Year Red and Gold
 

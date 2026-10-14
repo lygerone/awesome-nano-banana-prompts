@@ -168,6 +168,54 @@
     "url": "https://yepshot.com/explore/studio-colorway-lineup"
   },
   {
+    "id": "text-label-name-swap",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": true,
+    "title": "Change the Name on a Product Label",
+    "titleZh": "修改商品标签上的名称",
+    "summary": "Swaps one word on a label, such as a flavor or variant name, keeping the lettering around it. Brush over the word, then put the new name in the quotes; a name of similar length fits the space most easily. In our test, LAVENDER came out in the same green serif capitals, followed the curve of the jar, and nothing else on the label changed. Use it for mockups and ads; photograph the real variant for its listing.",
+    "summaryZh": "替换标签上的一个词，比如口味或款式名，周围的字样保持不变。先把这个词涂出来，再把新名字写进引号里，长度和原词差不多最容易排得下。实测中 LAVENDER 用的是同样的绿色衬线大写字母，贴合了瓶身弧度，标签上其他内容都没变。适合做效果图和广告；新款上架时请拍实物。",
+    "prompt": "Replace the text in the marked area with \"LAVENDER\". Match the original lettering exactly: the same typeface, weight, color and letter spacing, following the curve of the label. Keep everything outside the marked area unchanged.",
+    "promptZh": "把选区里的文字换成 \"LAVENDER\"。字体、字重、颜色和字距与原来完全一致，并贴合标签的弧度。选区外保持不变。",
+    "tags": [
+      "Label",
+      "Packaging",
+      "Text",
+      "Variant"
+    ],
+    "images": {
+      "before": "images/text-label-name-swap-before.webp",
+      "after": "images/text-label-name-swap-after.webp"
+    },
+    "url": "https://yepshot.com/explore/text-label-name-swap"
+  },
+  {
+    "id": "text-translate-packaging",
+    "scene": "product",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Translate the Text on Packaging",
+    "titleZh": "翻译包装上的文字",
+    "summary": "Translates the English text on a box or label into Spanish while keeping the brand name, layout and illustration. Change \"Spanish\" to the language you need. In our test every line was translated correctly, including the text on the box's top flap, but the model kept English title case (\"Té de Hierbas\" where Spanish writes \"Té de hierbas\"). Have a native speaker check it, and use it for ads and mockups, since the real package is unchanged.",
+    "summaryZh": "把盒子或标签上的英文翻译成西班牙语，品牌名、版式和插画都保留。把 Spanish 换成你要的语言即可。实测中每一行都译对了，连盒子顶盖上的字也一起翻了，但模型沿用了英文的标题式大写（写成 “Té de Hierbas”，西班牙语一般写 “Té de hierbas”）。用之前请母语者校对；实物包装并没有变，结果适合做广告和效果图。",
+    "prompt": "Translate the English text on the packaging into Spanish. Keep the brand name as it is, and give each translated line the same typeface, size, color and position as the original. Leave the product, the rest of the packaging and the background unchanged.",
+    "promptZh": "把包装上的英文翻译成西班牙语。品牌名保持不变，每行译文的字体、字号、颜色和位置与原文一致。商品、包装的其他部分和背景都保持不变。",
+    "tags": [
+      "Translation",
+      "Packaging",
+      "Localization",
+      "Text"
+    ],
+    "images": {
+      "before": "images/text-translate-packaging-before.webp",
+      "after": "images/text-translate-packaging-after.webp"
+    },
+    "url": "https://yepshot.com/explore/text-translate-packaging"
+  },
+  {
     "id": "lifestyle-travertine-stone",
     "scene": "product",
     "operation": "background",
@@ -842,6 +890,30 @@
       "after": "images/campaign-sale-poster-text-after.webp"
     },
     "url": "https://yepshot.com/explore/campaign-sale-poster-text"
+  },
+  {
+    "id": "text-promo-discount-update",
+    "scene": "campaign",
+    "operation": "modify",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Update the Discount on a Promo Graphic",
+    "titleZh": "修改促销图上的折扣",
+    "summary": "Changes the discount on an existing sale graphic, so last month's banner can be reused without opening the design file. In our test only the digits changed, from 20% to 35%, in the same bold type inside the same badge; the headline, the button and the product were left alone. Put your own number in the quotes and proofread the result before you post it.",
+    "summaryZh": "修改现成促销图上的折扣，不用打开设计源文件就能把上个月的横幅再用一次。实测中只有数字变了，从 20% 改成 35%，还是原来那个徽章里的同一种粗体字；标题、按钮和商品都没动。把引号里的数字换成你自己的，发布前校对一遍。",
+    "prompt": "Change the discount to \"35% OFF\" wherever it appears. Keep the typeface, colors, layout, product photo and every other word exactly as they are.",
+    "promptZh": "把折扣改成 \"35% OFF\"，图里出现的地方都要改。字体、颜色、版式、商品图和其他文字都保持原样。",
+    "tags": [
+      "Promo",
+      "Discount",
+      "Banner",
+      "Text"
+    ],
+    "images": {
+      "before": "images/text-promo-discount-update-before.webp",
+      "after": "images/text-promo-discount-update-after.webp"
+    },
+    "url": "https://yepshot.com/explore/text-promo-discount-update"
   },
   {
     "id": "seasonal-lunar-new-year",
