@@ -1,6 +1,6 @@
 # Awesome Nano Banana Prompts
 
-48 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
+52 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
 
 [English](README.md) · [在 YepShot 里试](https://yepshot.com/zh/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
 
@@ -10,6 +10,7 @@
 
 - 原图是合成的：用 Nano Banana 2.1 生成，刻意做成普通、有点乱的手机照，方便看出改动。没有用真人照片，也没有真实品牌。
 - 效果图是把英文提示词原文交给 Nano Banana 2.1（1K）跑出来的结果，经过人工检查，没有后期修饰。下面列的是中文译文，英文原文见 [README.md](README.md) 或 prompts.json。
+- 「壁纸」分类例外：这几条是 2K、把比例设成 3:2（`imageConfig: { aspectRatio: "3:2" }`）跑的，效果图是把结果裁成 iPhone Duo 内屏的样子。
 - 🖌 表示需要遮罩：先在图上涂出要改的区域。示例里的遮罩是程序自动框出目标后画的。
 - 🖼 表示要两张图：IMG_1 是主图，IMG_2 是参考图。
 
@@ -21,6 +22,7 @@
 - [营销](#营销) (6)
 - [修复](#修复) (4)
 - [创意](#创意) (5)
+- [壁纸](#壁纸) (4)
 - [用 Gemini API 调用这些提示词](#用-gemini-api-调用这些提示词)
 
 ## 产品
@@ -610,6 +612,56 @@
 ```
 
 [在 YepShot 中打开 →](https://yepshot.com/zh/explore/compose-style-transfer?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 多图合成 · 标签: Style Transfer, Reference, Art, Print
+
+## 壁纸
+
+### 把照片扩成横向手机壁纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/wallpaper-natural-widen-before.webp" width="260" alt="把照片扩成横向手机壁纸 · 原图"></td><td><img src="images/wallpaper-natural-widen-after.webp" width="260" alt="把照片扩成横向手机壁纸 · 效果"></td></tr></table>
+
+照片本身不变，把画面向两边扩成 3:2 的横图，正好是折叠屏手机展开后的形状，比如 iPhone Duo 的内屏。竖拍的手机照片也能用：模型会把场景往两侧接着画，不是硬拉伸。在 iPhone Duo 壁纸工具里用这条，会直接裁好两块屏的尺寸。
+
+```text
+把这张照片变成 3:2 的宽幅横图。主体保持原样：形状、颜色、面部和细节都不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。保持照片质感。不要添加人物、手、文字、标志、边框或手机外框。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/wallpaper-natural-widen?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Wallpaper, iPhone Duo, Outpaint, Widen
+
+### 电影感宽幅壁纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/wallpaper-cinematic-film-before.webp" width="260" alt="电影感宽幅壁纸 · 原图"></td><td><img src="images/wallpaper-cinematic-film-after.webp" width="260" alt="电影感宽幅壁纸 · 效果"></td></tr></table>
+
+把照片扩成 3:2，再调成电影画面的感觉：柔和的方向光、淡淡的雾气、浓郁但自然的色彩和浅景深。主体保持原样。像示例这种阴天的平淡照片，变化比较温和：多了侧面的暖光和一点雾气。测试里它有时会把镜头拉远，近景可能变成一个更宽的画面。
+
+```text
+把这张照片变成 3:2 的宽幅电影剧照：柔和的方向光、淡淡的雾气、浓郁自然的色彩、浅景深。主体保持原样：形状、面部和细节都不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。不要添加人物、手、文字、标志、边框或手机外框。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/wallpaper-cinematic-film?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Wallpaper, iPhone Duo, Cinematic, Film Look
+
+### 水粉插画风壁纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/wallpaper-gouache-illustration-before.webp" width="260" alt="水粉插画风壁纸 · 原图"></td><td><img src="images/wallpaper-gouache-illustration-after.webp" width="260" alt="水粉插画风壁纸 · 效果"></td></tr></table>
+
+把照片重绘成 3:2 的宽幅水粉插画，笔触明显、造型简化。风景和物体会明显变成画；人脸和毛发会保留更多照片细节，所以人像照片主要是背景变了。
+
+```text
+把这张照片重绘成 3:2 的宽幅水粉插画，笔触明显、造型简化，一眼看得出是画的。主体要认得出来：姿势和关键细节不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。不要添加人物、手、文字、标志、边框或手机外框。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/wallpaper-gouache-illustration?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Wallpaper, iPhone Duo, Illustration, Gouache
+
+### 极简渐变壁纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/wallpaper-minimal-gradient-before.webp" width="260" alt="极简渐变壁纸 · 原图"></td><td><img src="images/wallpaper-minimal-gradient-after.webp" width="260" alt="极简渐变壁纸 · 效果"></td></tr></table>
+
+只留下主体，放在用照片本身颜色做的柔和渐变上，留出大片空白，图标和时钟不会挡住内容。需要有一个明确的主体，比如宠物、人或物件；测试里一整条街的照片会失败。
+
+```text
+把这张照片变成安静、极简的 3:2 宽幅图。主体保持原样；如果是没有单一主体的场景，只保留最醒目的那个元素。把它放在用照片颜色做的柔和渐变上，留出大片空白，不要做成卡片或带框的照片。不要添加人物、手、文字、标志、边框或手机外框。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/wallpaper-minimal-gradient?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Wallpaper, iPhone Duo, Minimal, Gradient
 
 ## 用 Gemini API 调用这些提示词
 

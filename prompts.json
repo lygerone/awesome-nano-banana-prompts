@@ -1155,5 +1155,101 @@
       "reference": "images/compose-style-transfer-reference.webp"
     },
     "url": "https://yepshot.com/explore/compose-style-transfer"
+  },
+  {
+    "id": "wallpaper-natural-widen",
+    "scene": "wallpaper",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Widen a Photo into a Phone Wallpaper",
+    "titleZh": "把照片扩成横向手机壁纸",
+    "summary": "Keeps the photo as it is and widens the scene into a 3:2 landscape, the shape of a foldable phone's open screen such as the iPhone Duo's inner display. It works on tall phone shots too: the model continues the scene to both sides instead of stretching it. Run it from the iPhone Duo wallpaper maker to get both screen sizes cut for you.",
+    "summaryZh": "照片本身不变，把画面向两边扩成 3:2 的横图，正好是折叠屏手机展开后的形状，比如 iPhone Duo 的内屏。竖拍的手机照片也能用：模型会把场景往两侧接着画，不是硬拉伸。在 iPhone Duo 壁纸工具里用这条，会直接裁好两块屏的尺寸。",
+    "prompt": "Turn this photo into a wide 3:2 landscape. Keep the main subject exactly as it is: same shape, colors, face and details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Keep it photographic. Add no people, hands, text, logos, borders or phone frames.",
+    "promptZh": "把这张照片变成 3:2 的宽幅横图。主体保持原样：形状、颜色、面部和细节都不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。保持照片质感。不要添加人物、手、文字、标志、边框或手机外框。",
+    "tags": [
+      "Wallpaper",
+      "iPhone Duo",
+      "Outpaint",
+      "Widen"
+    ],
+    "images": {
+      "before": "images/wallpaper-natural-widen-before.webp",
+      "after": "images/wallpaper-natural-widen-after.webp"
+    },
+    "url": "https://yepshot.com/explore/wallpaper-natural-widen"
+  },
+  {
+    "id": "wallpaper-cinematic-film",
+    "scene": "wallpaper",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Cinematic Film-Still Wallpaper",
+    "titleZh": "电影感宽幅壁纸",
+    "summary": "Widens the photo to 3:2 and gives it a film look: soft directional light, light haze, rich natural colors and a shallow depth of field. The subject stays as it was. On a flat, overcast photo like the example the change is gentle: warmer side light and a little haze. In our tests it sometimes pulled the camera back, so a close-up can come back as a wider shot.",
+    "summaryZh": "把照片扩成 3:2，再调成电影画面的感觉：柔和的方向光、淡淡的雾气、浓郁但自然的色彩和浅景深。主体保持原样。像示例这种阴天的平淡照片，变化比较温和：多了侧面的暖光和一点雾气。测试里它有时会把镜头拉远，近景可能变成一个更宽的画面。",
+    "prompt": "Turn this photo into a wide 3:2 film still: soft directional light, light haze, rich natural colors, shallow depth of field. Keep the main subject exactly as it is: same shape, face and details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Add no people, hands, text, logos, borders or phone frames.",
+    "promptZh": "把这张照片变成 3:2 的宽幅电影剧照：柔和的方向光、淡淡的雾气、浓郁自然的色彩、浅景深。主体保持原样：形状、面部和细节都不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。不要添加人物、手、文字、标志、边框或手机外框。",
+    "tags": [
+      "Wallpaper",
+      "iPhone Duo",
+      "Cinematic",
+      "Film Look"
+    ],
+    "images": {
+      "before": "images/wallpaper-cinematic-film-before.webp",
+      "after": "images/wallpaper-cinematic-film-after.webp"
+    },
+    "url": "https://yepshot.com/explore/wallpaper-cinematic-film"
+  },
+  {
+    "id": "wallpaper-gouache-illustration",
+    "scene": "wallpaper",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Gouache Illustration Wallpaper",
+    "titleZh": "水粉插画风壁纸",
+    "summary": "Repaints the photo as a wide gouache illustration with visible brush strokes and simplified shapes, and widens it to 3:2. Scenery and objects turn clearly painted; faces and fur keep more photo detail, so on a portrait mostly the background changes.",
+    "summaryZh": "把照片重绘成 3:2 的宽幅水粉插画，笔触明显、造型简化。风景和物体会明显变成画；人脸和毛发会保留更多照片细节，所以人像照片主要是背景变了。",
+    "prompt": "Repaint this photo as a wide 3:2 gouache illustration with visible brush strokes and simplified shapes; it must clearly look painted. Keep the main subject recognizable: same pose and key details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Add no people, hands, text, logos, borders or phone frames.",
+    "promptZh": "把这张照片重绘成 3:2 的宽幅水粉插画，笔触明显、造型简化，一眼看得出是画的。主体要认得出来：姿势和关键细节不变。像在同一位置换了广角镜头一样拓宽视野：一个连续的场景，没有接缝或拼接。不要添加人物、手、文字、标志、边框或手机外框。",
+    "tags": [
+      "Wallpaper",
+      "iPhone Duo",
+      "Illustration",
+      "Gouache"
+    ],
+    "images": {
+      "before": "images/wallpaper-gouache-illustration-before.webp",
+      "after": "images/wallpaper-gouache-illustration-after.webp"
+    },
+    "url": "https://yepshot.com/explore/wallpaper-gouache-illustration"
+  },
+  {
+    "id": "wallpaper-minimal-gradient",
+    "scene": "wallpaper",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Minimal Gradient Wallpaper",
+    "titleZh": "极简渐变壁纸",
+    "summary": "Keeps only the main subject and places it on a soft gradient made from the photo's own colors, with plenty of empty space for icons and the clock. It needs one clear subject such as a pet, a person or an object; on a photo of a whole street it failed in our tests.",
+    "summaryZh": "只留下主体，放在用照片本身颜色做的柔和渐变上，留出大片空白，图标和时钟不会挡住内容。需要有一个明确的主体，比如宠物、人或物件；测试里一整条街的照片会失败。",
+    "prompt": "Turn this photo into a calm, minimal wide 3:2 image. Keep the main subject exactly as it is; for a scene, keep only its most striking element. Put it on a soft gradient in colors from the photo with lots of empty space, never as a card or framed photo. Add no people, hands, text, logos, borders or phone frames.",
+    "promptZh": "把这张照片变成安静、极简的 3:2 宽幅图。主体保持原样；如果是没有单一主体的场景，只保留最醒目的那个元素。把它放在用照片颜色做的柔和渐变上，留出大片空白，不要做成卡片或带框的照片。不要添加人物、手、文字、标志、边框或手机外框。",
+    "tags": [
+      "Wallpaper",
+      "iPhone Duo",
+      "Minimal",
+      "Gradient"
+    ],
+    "images": {
+      "before": "images/wallpaper-minimal-gradient-before.webp",
+      "after": "images/wallpaper-minimal-gradient-after.webp"
+    },
+    "url": "https://yepshot.com/explore/wallpaper-minimal-gradient"
   }
 ]

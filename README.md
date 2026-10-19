@@ -1,6 +1,6 @@
 # Awesome Nano Banana Prompts
 
-48 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
+52 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
 
 [中文版](README.zh-CN.md) · [Try them in YepShot](https://yepshot.com/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
 
@@ -10,6 +10,7 @@
 
 - The before photos are synthetic. They were generated with Nano Banana 2.1 to look like ordinary, slightly messy phone photos, so the edit is easy to see. No real people's photos and no real brands are used.
 - The after images are the output of running the prompt exactly as written, on Nano Banana 2.1 at 1K. They were checked by hand and not retouched.
+- Wallpapers is the exception: those prompts were run at 2K with the aspect ratio set to 3:2 (`imageConfig: { aspectRatio: "3:2" }`), and the after image is that result cropped to the iPhone Duo's inner screen.
 - 🖌 means the prompt needs a mask: paint over the area to change first. In the examples the mask was drawn automatically around the target.
 - 🖼 means the prompt takes two images: IMG_1 is the main photo, IMG_2 is the reference.
 
@@ -21,6 +22,7 @@
 - [Campaigns](#campaigns) (6)
 - [Restoration](#restoration) (4)
 - [Creative](#creative) (5)
+- [Wallpapers](#wallpapers) (4)
 - [Using the prompts with the Gemini API](#using-the-prompts-with-the-gemini-api)
 
 ## Product
@@ -610,6 +612,56 @@ Redraw IMG_1 in the visual style of IMG_2: use its color palette, texture and br
 ```
 
 [Open in YepShot →](https://yepshot.com/explore/compose-style-transfer?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Combine · Tags: Style Transfer, Reference, Art, Print
+
+## Wallpapers
+
+### Widen a Photo into a Phone Wallpaper
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/wallpaper-natural-widen-before.webp" width="260" alt="Widen a Photo into a Phone Wallpaper · Before"></td><td><img src="images/wallpaper-natural-widen-after.webp" width="260" alt="Widen a Photo into a Phone Wallpaper · After"></td></tr></table>
+
+Keeps the photo as it is and widens the scene into a 3:2 landscape, the shape of a foldable phone's open screen such as the iPhone Duo's inner display. It works on tall phone shots too: the model continues the scene to both sides instead of stretching it. Run it from the iPhone Duo wallpaper maker to get both screen sizes cut for you.
+
+```text
+Turn this photo into a wide 3:2 landscape. Keep the main subject exactly as it is: same shape, colors, face and details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Keep it photographic. Add no people, hands, text, logos, borders or phone frames.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/wallpaper-natural-widen?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Wallpaper, iPhone Duo, Outpaint, Widen
+
+### Cinematic Film-Still Wallpaper
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/wallpaper-cinematic-film-before.webp" width="260" alt="Cinematic Film-Still Wallpaper · Before"></td><td><img src="images/wallpaper-cinematic-film-after.webp" width="260" alt="Cinematic Film-Still Wallpaper · After"></td></tr></table>
+
+Widens the photo to 3:2 and gives it a film look: soft directional light, light haze, rich natural colors and a shallow depth of field. The subject stays as it was. On a flat, overcast photo like the example the change is gentle: warmer side light and a little haze. In our tests it sometimes pulled the camera back, so a close-up can come back as a wider shot.
+
+```text
+Turn this photo into a wide 3:2 film still: soft directional light, light haze, rich natural colors, shallow depth of field. Keep the main subject exactly as it is: same shape, face and details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Add no people, hands, text, logos, borders or phone frames.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/wallpaper-cinematic-film?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Wallpaper, iPhone Duo, Cinematic, Film Look
+
+### Gouache Illustration Wallpaper
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/wallpaper-gouache-illustration-before.webp" width="260" alt="Gouache Illustration Wallpaper · Before"></td><td><img src="images/wallpaper-gouache-illustration-after.webp" width="260" alt="Gouache Illustration Wallpaper · After"></td></tr></table>
+
+Repaints the photo as a wide gouache illustration with visible brush strokes and simplified shapes, and widens it to 3:2. Scenery and objects turn clearly painted; faces and fur keep more photo detail, so on a portrait mostly the background changes.
+
+```text
+Repaint this photo as a wide 3:2 gouache illustration with visible brush strokes and simplified shapes; it must clearly look painted. Keep the main subject recognizable: same pose and key details. Widen the view as if shot with a wider lens from the same spot: one continuous scene, no seams or panels. Add no people, hands, text, logos, borders or phone frames.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/wallpaper-gouache-illustration?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Wallpaper, iPhone Duo, Illustration, Gouache
+
+### Minimal Gradient Wallpaper
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/wallpaper-minimal-gradient-before.webp" width="260" alt="Minimal Gradient Wallpaper · Before"></td><td><img src="images/wallpaper-minimal-gradient-after.webp" width="260" alt="Minimal Gradient Wallpaper · After"></td></tr></table>
+
+Keeps only the main subject and places it on a soft gradient made from the photo's own colors, with plenty of empty space for icons and the clock. It needs one clear subject such as a pet, a person or an object; on a photo of a whole street it failed in our tests.
+
+```text
+Turn this photo into a calm, minimal wide 3:2 image. Keep the main subject exactly as it is; for a scene, keep only its most striking element. Put it on a soft gradient in colors from the photo with lots of empty space, never as a card or framed photo. Add no people, hands, text, logos, borders or phone frames.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/wallpaper-minimal-gradient?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Wallpaper, iPhone Duo, Minimal, Gradient
 
 ## Using the prompts with the Gemini API
 
