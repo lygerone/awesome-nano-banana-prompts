@@ -1,8 +1,8 @@
 # Awesome Nano Banana Prompts
 
-52 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
+54 条实测过的 Nano Banana 2.1 修图提示词。每条都附真实的前后对比，复制就能用，没有需要你填的占位符。
 
-[English](README.md) · [在 YepShot 里试](https://yepshot.com/zh/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
+[English](README.md) · [在 YepShot 里试](https://yepshot.com/zh/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json) · [其中 48 条在 GPT Image 2.6 上的结果，另有 GIF 提示词（英文）](https://github.com/lygerone/awesome-gpt-image-2-6-prompts)
 
 <img src="images/studio-pure-white-amazon-after.webp" width="220"> <img src="images/campaign-sale-poster-text-after.webp" width="220"> <img src="images/lifestyle-travertine-stone-after.webp" width="220">
 
@@ -21,7 +21,7 @@
 - [人像](#人像) (5)
 - [营销](#营销) (6)
 - [修复](#修复) (4)
-- [创意](#创意) (5)
+- [创意](#创意) (7)
 - [壁纸](#壁纸) (4)
 - [用 Gemini API 调用这些提示词](#用-gemini-api-调用这些提示词)
 
@@ -588,6 +588,30 @@
 ```
 
 [在 YepShot 中打开 →](https://yepshot.com/zh/explore/creative-3d-clay?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Clay, 3D, Stop Motion, Cute
+
+### 照片变 Q 版贴纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/creative-chibi-sticker-before.webp" width="260" alt="照片变 Q 版贴纸 · 原图"></td><td><img src="images/creative-chibi-sticker-after.webp" width="260" alt="照片变 Q 版贴纸 · 效果"></td></tr></table>
+
+把照片里的人变成 Q 版卡通贴纸：大头小身子、粗轮廓线、外圈一道白边，放在纯色背景上，方便抠出来。发型、眼镜、衣服颜色都会保留。把提示词里的「人」换成「宠物」，动物也能这样做。出来的是带纯色背景的图片，不是透明底的贴纸文件。
+
+```text
+把这张照片里的人变成可爱的 Q 版卡通贴纸：大头小身子、干净的粗轮廓线和明亮的平涂色，整个角色外面围一圈粗白边，像模切贴纸。保留发型、眼镜、脸型和衣服颜色，让人认得出来。贴纸单独放在纯浅灰色背景上。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/creative-chibi-sticker?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Sticker, Chibi, Cartoon, Cute
+
+### 宠物照片变表情贴纸
+
+<table><tr><th>原图</th><th>效果</th></tr><tr><td><img src="images/creative-pet-sticker-sheet-before.webp" width="260" alt="宠物照片变表情贴纸 · 原图"></td><td><img src="images/creative-pet-sticker-sheet-after.webp" width="260" alt="宠物照片变表情贴纸 · 效果"></td></tr></table>
+
+用一张宠物照片做出同一只动物的六个卡通贴纸，表情各不相同，像贴纸页一样排成网格。毛色和花纹都保留，每个贴纸看着都是你家那只。提示词里的六种表情可以换成你想要的。贴纸上不放文字，因为小字很容易拼错。
+
+```text
+把这张照片里的宠物做成一张表情贴纸页：六个卡通贴纸排成 3 列 2 行，表情各不相同：开心、犯困、惊讶、生气、爱心眼和大笑。每个贴纸的毛色和花纹都和照片一致。粗轮廓线，每个贴纸外围一圈白边，在纯浅灰色背景上均匀排开，不要文字。
+```
+
+[在 YepShot 中打开 →](https://yepshot.com/zh/explore/creative-pet-sticker-sheet?utm_source=github&utm_medium=awesome-nano-banana-prompts) · 风格转换 · 标签: Sticker, Pet, Emoji, Cartoon
 
 ### 线稿变产品效果图
 

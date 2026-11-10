@@ -1108,6 +1108,54 @@
     "url": "https://yepshot.com/explore/creative-3d-clay"
   },
   {
+    "id": "creative-chibi-sticker",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Photo to Chibi Sticker",
+    "titleZh": "照片变 Q 版贴纸",
+    "summary": "Turns the person in a photo into a chibi cartoon sticker: big head, small body, bold outlines and a white die-cut border, on a plain background so it is easy to cut out. Hairstyle, glasses and outfit colors carry over. Swap “person” for “pet” to do the same with an animal. The result is a picture with a plain background, not a transparent sticker file.",
+    "summaryZh": "把照片里的人变成 Q 版卡通贴纸：大头小身子、粗轮廓线、外圈一道白边，放在纯色背景上，方便抠出来。发型、眼镜、衣服颜色都会保留。把提示词里的「人」换成「宠物」，动物也能这样做。出来的是带纯色背景的图片，不是透明底的贴纸文件。",
+    "prompt": "Turn the person in this photo into a cute chibi cartoon sticker: big head, small body, bold clean outlines and flat bright colors, with a thick white die-cut border around the whole character. Keep their hairstyle, glasses, face shape and outfit colors recognizable. Place the sticker alone on a plain light grey background.",
+    "promptZh": "把这张照片里的人变成可爱的 Q 版卡通贴纸：大头小身子、干净的粗轮廓线和明亮的平涂色，整个角色外面围一圈粗白边，像模切贴纸。保留发型、眼镜、脸型和衣服颜色，让人认得出来。贴纸单独放在纯浅灰色背景上。",
+    "tags": [
+      "Sticker",
+      "Chibi",
+      "Cartoon",
+      "Cute"
+    ],
+    "images": {
+      "before": "images/creative-chibi-sticker-before.webp",
+      "after": "images/creative-chibi-sticker-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-chibi-sticker"
+  },
+  {
+    "id": "creative-pet-sticker-sheet",
+    "scene": "creative",
+    "operation": "restyle",
+    "mode": "single-edit",
+    "requiresMask": false,
+    "title": "Pet Photo to Sticker Sheet",
+    "titleZh": "宠物照片变表情贴纸",
+    "summary": "Turns one pet photo into six cartoon stickers of the same animal with different expressions, laid out in a grid like a sticker sheet. Fur colors and markings are kept so every sticker looks like your pet. Change the six expressions in the prompt to the ones you want. The stickers have no text, because small lettering often comes out misspelled.",
+    "summaryZh": "用一张宠物照片做出同一只动物的六个卡通贴纸，表情各不相同，像贴纸页一样排成网格。毛色和花纹都保留，每个贴纸看着都是你家那只。提示词里的六种表情可以换成你想要的。贴纸上不放文字，因为小字很容易拼错。",
+    "prompt": "Turn the pet in this photo into a sticker sheet of six cartoon stickers in a 3-by-2 grid, each with a different expression: happy, sleepy, surprised, grumpy, in love and laughing. Keep the same fur colors and markings in every sticker. Bold outlines, a white die-cut border around each sticker, even spacing on a plain light grey background, no text.",
+    "promptZh": "把这张照片里的宠物做成一张表情贴纸页：六个卡通贴纸排成 3 列 2 行，表情各不相同：开心、犯困、惊讶、生气、爱心眼和大笑。每个贴纸的毛色和花纹都和照片一致。粗轮廓线，每个贴纸外围一圈白边，在纯浅灰色背景上均匀排开，不要文字。",
+    "tags": [
+      "Sticker",
+      "Pet",
+      "Emoji",
+      "Cartoon"
+    ],
+    "images": {
+      "before": "images/creative-pet-sticker-sheet-before.webp",
+      "after": "images/creative-pet-sticker-sheet-after.webp"
+    },
+    "url": "https://yepshot.com/explore/creative-pet-sticker-sheet"
+  },
+  {
     "id": "creative-sketch-to-render",
     "scene": "creative",
     "operation": "restyle",

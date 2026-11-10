@@ -1,8 +1,8 @@
 # Awesome Nano Banana Prompts
 
-52 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
+54 tested photo-editing prompts for Nano Banana 2.1, Google's image model. Every prompt comes with a real before-and-after, and every prompt is ready to paste: no placeholders to fill in.
 
-[中文版](README.zh-CN.md) · [Try them in YepShot](https://yepshot.com/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json)
+[中文版](README.zh-CN.md) · [Try them in YepShot](https://yepshot.com/explore?utm_source=github&utm_medium=awesome-nano-banana-prompts) · [prompts.json](prompts.json) · [48 of them on GPT Image 2.6, plus GIF prompts](https://github.com/lygerone/awesome-gpt-image-2-6-prompts)
 
 <img src="images/studio-pure-white-amazon-after.webp" width="220"> <img src="images/campaign-sale-poster-text-after.webp" width="220"> <img src="images/lifestyle-travertine-stone-after.webp" width="220">
 
@@ -21,7 +21,7 @@
 - [Portrait](#portrait) (5)
 - [Campaigns](#campaigns) (6)
 - [Restoration](#restoration) (4)
-- [Creative](#creative) (5)
+- [Creative](#creative) (7)
 - [Wallpapers](#wallpapers) (4)
 - [Using the prompts with the Gemini API](#using-the-prompts-with-the-gemini-api)
 
@@ -588,6 +588,30 @@ Transform this photo into a handmade 3D clay animation style, with soft rounded 
 ```
 
 [Open in YepShot →](https://yepshot.com/explore/creative-3d-clay?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Clay, 3D, Stop Motion, Cute
+
+### Photo to Chibi Sticker
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/creative-chibi-sticker-before.webp" width="260" alt="Photo to Chibi Sticker · Before"></td><td><img src="images/creative-chibi-sticker-after.webp" width="260" alt="Photo to Chibi Sticker · After"></td></tr></table>
+
+Turns the person in a photo into a chibi cartoon sticker: big head, small body, bold outlines and a white die-cut border, on a plain background so it is easy to cut out. Hairstyle, glasses and outfit colors carry over. Swap “person” for “pet” to do the same with an animal. The result is a picture with a plain background, not a transparent sticker file.
+
+```text
+Turn the person in this photo into a cute chibi cartoon sticker: big head, small body, bold clean outlines and flat bright colors, with a thick white die-cut border around the whole character. Keep their hairstyle, glasses, face shape and outfit colors recognizable. Place the sticker alone on a plain light grey background.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/creative-chibi-sticker?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Sticker, Chibi, Cartoon, Cute
+
+### Pet Photo to Sticker Sheet
+
+<table><tr><th>Before</th><th>After</th></tr><tr><td><img src="images/creative-pet-sticker-sheet-before.webp" width="260" alt="Pet Photo to Sticker Sheet · Before"></td><td><img src="images/creative-pet-sticker-sheet-after.webp" width="260" alt="Pet Photo to Sticker Sheet · After"></td></tr></table>
+
+Turns one pet photo into six cartoon stickers of the same animal with different expressions, laid out in a grid like a sticker sheet. Fur colors and markings are kept so every sticker looks like your pet. Change the six expressions in the prompt to the ones you want. The stickers have no text, because small lettering often comes out misspelled.
+
+```text
+Turn the pet in this photo into a sticker sheet of six cartoon stickers in a 3-by-2 grid, each with a different expression: happy, sleepy, surprised, grumpy, in love and laughing. Keep the same fur colors and markings in every sticker. Bold outlines, a white die-cut border around each sticker, even spacing on a plain light grey background, no text.
+```
+
+[Open in YepShot →](https://yepshot.com/explore/creative-pet-sticker-sheet?utm_source=github&utm_medium=awesome-nano-banana-prompts) · Restyle · Tags: Sticker, Pet, Emoji, Cartoon
 
 ### Sketch to Product Render
 
